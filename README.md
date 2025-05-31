@@ -23,7 +23,7 @@ Metrov is a custom Android launcher focused on delivering a clean, productive, a
 - A lots more
 
 Find out more or download the app:
-👉 [Google Play (if available)](https://play.google.com/store/apps/details?id=com.tuzkituan.metrov&hl=en)  
+👉 [Google Play Store](https://play.google.com/store/apps/details?id=com.tuzkituan.metrov&hl=en)  
 
 ---
 
