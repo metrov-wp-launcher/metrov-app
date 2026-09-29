@@ -1,0 +1,35 @@
+name: 💡 Feature request
+description: An idea to make Metrov better
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are always welcome. Please check the [existing requests](https://github.com/metrov-wp-launcher/metrov-app/issues?q=is%3Aissue+label%3Aenhancement) first. If yours is already there, give it a 👍 instead of opening a new one, that's how I see what people want most.
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: What's your idea?
+      description: Describe what you'd like Metrov to do.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why do you want it?
+      description: What problem does it solve for you, or what do you do today instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reference
+    attributes:
+      label: Reference
+      description: If it's something from Windows Phone, a screenshot or video of how it worked there is super helpful.
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?

@@ -1,0 +1,78 @@
+name: 🐞 Bug report
+description: Something is broken, crashing or acting weird
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. Please search the [existing issues](https://github.com/metrov-wp-launcher/metrov-app/issues?q=is%3Aissue) first, someone might already have reported it.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Tell me what went wrong, and what you expected to happen instead.
+      placeholder: When I long press a tile and pick "resize", the launcher closes.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: If I can make it happen on my phone, I can fix it a lot faster.
+      placeholder: |
+        1. Open the start screen
+        2. Long press the Photos tile
+        3. Tap resize
+        4. Crash
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: Metrov version
+      description: Settings > About in Metrov
+      placeholder: "2.3.2"
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Phone model
+      placeholder: Samsung Galaxy S23
+    validations:
+      required: true
+
+  - type: input
+    id: android
+    attributes:
+      label: Android version / skin
+      placeholder: Android 15, One UI 7
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Sometimes
+        - Only happened once
+    validations:
+      required: true
+
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots, screen recording or logs
+      description: Drag and drop files here. A short screen recording helps a lot.
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Other launchers or apps you use that might be related, when it started, etc.
