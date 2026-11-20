@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "featured": "app:messages",
+  "featured": "app:dial",
   "apps": [
     {
       "id": "dial",
