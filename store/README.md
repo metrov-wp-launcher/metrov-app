@@ -34,13 +34,13 @@ release is needed.
 | `name`, `tagline`, `description` | text maps |
 | `icon` | path of a square PNG in this folder, 192 px |
 | `screenshots` | optional list of screenshot paths (PNG, JPG or WebP, phone-shaped, about 720 x 1600), shown in order on the app's page |
-| `status` | `live` (on Play: get opens the Play listing), `apk` (not on Play: download opens `url` in the browser) or `soon` (coming soon) |
-| `url` | for `apk`: where the APK is downloaded from. While it is empty the app shows as coming soon |
+| `status` | `live` (on Play: get opens the Play listing), `web` (not on Play: learn more opens `url` in the browser) or `soon` (coming soon) |
+| `url` | the app's page on the web. For `web`, learn more opens it and it offers the download; never a direct `.apk` link, and while it is empty the app shows as coming soon. For `soon`, share sends it. |
 | `versionCode` | optional: the version on Play. When the installed one is lower, the Store shows update |
 
-The Store never downloads or installs an APK itself (Play policy forbids it in a Play app): get opens
-the Play listing, and download hands `url` to the browser, which downloads it and lets Android ask
-the user to install it.
+The Store never downloads or installs an app itself, and never links an APK directly: Play's policy
+does not allow a Play app to install apps from outside Play, and reviewers have flagged apps that
+steer users to APK downloads. Get opens the Play listing; learn more opens the app's own web page.
 
 ### themes
 

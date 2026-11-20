@@ -95,9 +95,9 @@
         "screenshots/keyboard/symbols.webp",
         "screenshots/keyboard/personalize.webp"
       ],
-      "status": "apk",
+      "status": "web",
       "added": "2026-11-20",
-      "url": "https://urlshortener.at/YyPNA"
+      "url": "https://tuzkituan.dev/keyboard"
     },
     {
       "id": "files",
@@ -120,9 +120,57 @@
         "screenshots/files/viewer.webp",
         "screenshots/files/select.webp"
       ],
-      "status": "apk",
+      "status": "web",
       "added": "2026-11-20",
-      "url": "https://urlshortener.at/fdzJU"
+      "url": "https://tuzkituan.dev/files"
+    },
+    {
+      "id": "fimie",
+      "package": "com.tuzkituan.fimie",
+      "name": {
+        "en": "FIMIE"
+      },
+      "tagline": {
+        "en": "Give your photos the analog film look"
+      },
+      "description": {
+        "en": "A film camera and photo editor. 43 film looks modelled on the classics, AUTO to pick the ones that suit each photo, a live film camera, lab-scan borders, glow, light leaks and date stamps. Edits never touch the original, and your photos never leave the phone."
+      },
+      "icon": "icons/fimie.png",
+      "screenshots": [
+        "screenshots/fimie/film-looks.webp",
+        "screenshots/fimie/auto.webp",
+        "screenshots/fimie/all-films.webp",
+        "screenshots/fimie/borders.webp",
+        "screenshots/fimie/filters.webp",
+        "screenshots/fimie/roll.webp"
+      ],
+      "status": "soon",
+      "added": "2026-11-20",
+      "url": "https://tuzkituan.dev/fimie"
+    },
+    {
+      "id": "nightcap",
+      "package": "com.tuannguyenitpy.nightcap",
+      "name": {
+        "en": "NightCap"
+      },
+      "tagline": {
+        "en": "A sleep timer for whatever is playing"
+      },
+      "description": {
+        "en": "Pauses whatever is playing when the countdown ends: music, videos, podcasts, the browser. Extend or stop it from the notification, and it keeps counting even when the app is closed. Open source, with a dark look made for night."
+      },
+      "icon": "icons/nightcap.png",
+      "screenshots": [
+        "screenshots/nightcap/set-timer.webp",
+        "screenshots/nightcap/counting-down.webp",
+        "screenshots/nightcap/durations.webp",
+        "screenshots/nightcap/notification.webp"
+      ],
+      "status": "web",
+      "url": "https://tuzkituan.dev/nightcap",
+      "added": "2026-11-20"
     }
   ],
   "themes": [
