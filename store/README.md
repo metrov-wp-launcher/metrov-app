@@ -32,7 +32,7 @@ release is needed.
 | `id` | short unique id |
 | `package` | the Android package name, used to see whether it is installed and to open Play |
 | `name`, `tagline`, `description` | text maps |
-| `icon` | path of a square PNG in this folder, 192 px |
+| `icon` | path of a square PNG in this folder, 512 px |
 | `screenshots` | optional list of screenshot paths (PNG, JPG or WebP, phone-shaped, about 720 x 1600), shown in order on the app's page |
 | `status` | `live` (on Play: get opens the Play listing), `web` (not on Play: learn more opens `url` in the browser) or `soon` (coming soon) |
 | `url` | the app's page on the web. For `web`, learn more opens it and it offers the download; never a direct `.apk` link, and while it is empty the app shows as coming soon. For `soon`, share sends it. |
