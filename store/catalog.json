@@ -1,0 +1,210 @@
+{
+  "version": 1,
+  "featured": "app:messages",
+  "apps": [
+    {
+      "id": "dial",
+      "package": "com.tuzkituan.metrov_dial",
+      "name": {
+        "en": "METROV Dial"
+      },
+      "tagline": {
+        "en": "Calls, the Metro way"
+      },
+      "description": {
+        "en": "Replaces the phone app: big type for incoming calls, a flat keypad, call history and contacts in one place."
+      },
+      "icon": "icons/dial.png",
+      "screenshots": [
+        "screenshots/dial/keypad.webp",
+        "screenshots/dial/incoming-call.webp",
+        "screenshots/dial/in-call.webp",
+        "screenshots/dial/call-log.webp",
+        "screenshots/dial/contact.webp",
+        "screenshots/dial/call-settings.webp"
+      ],
+      "status": "live",
+      "added": "2026-11-20"
+    },
+    {
+      "id": "messages",
+      "package": "com.tuzkituan.metrov.messages",
+      "name": {
+        "en": "METROV Messages"
+      },
+      "tagline": {
+        "en": "Metro-style SMS and MMS"
+      },
+      "description": {
+        "en": "Clean type, big headers, dual SIM, and no ads. Conversations look the way the rest of METROV does."
+      },
+      "icon": "icons/messages.png",
+      "screenshots": [
+        "screenshots/messages/conversations.webp",
+        "screenshots/messages/conversation.webp",
+        "screenshots/messages/search.webp",
+        "screenshots/messages/personalize.webp",
+        "screenshots/messages/light-theme.webp",
+        "screenshots/messages/custom-colors.webp"
+      ],
+      "status": "live",
+      "added": "2026-11-20"
+    },
+    {
+      "id": "navbar",
+      "package": "com.tuzkituan.metrov.navbar",
+      "name": {
+        "en": "METROV Navbar"
+      },
+      "tagline": {
+        "en": "Back, Start and search"
+      },
+      "description": {
+        "en": "A Metro navigation bar that follows your accent colour, hides itself when you want, and works with any launcher."
+      },
+      "icon": "icons/navbar.png",
+      "screenshots": [
+        "screenshots/navbar/navigation-bar.webp",
+        "screenshots/navbar/home.webp",
+        "screenshots/navbar/metrov-home.webp",
+        "screenshots/navbar/buttons.webp",
+        "screenshots/navbar/personalize.webp",
+        "screenshots/navbar/settings-app.webp"
+      ],
+      "status": "live",
+      "added": "2026-11-20"
+    },
+    {
+      "id": "keyboard",
+      "package": "com.tuzkituan.metrov.keyboard",
+      "name": {
+        "en": "METROV Keyboard"
+      },
+      "tagline": {
+        "en": "Metro typing"
+      },
+      "description": {
+        "en": "Flat keys with your accent on what you press, suggestions and autocorrect in 22 languages, and no internet access."
+      },
+      "icon": "icons/keyboard.png",
+      "screenshots": [
+        "screenshots/keyboard/suggestions.webp",
+        "screenshots/keyboard/languages.webp",
+        "screenshots/keyboard/japanese.webp",
+        "screenshots/keyboard/emoji.webp",
+        "screenshots/keyboard/symbols.webp",
+        "screenshots/keyboard/personalize.webp"
+      ],
+      "status": "apk",
+      "added": "2026-11-20",
+      "url": "https://urlshortener.at/YyPNA"
+    },
+    {
+      "id": "files",
+      "package": "com.tuzkituan.metrov.files",
+      "name": {
+        "en": "METROV Files"
+      },
+      "tagline": {
+        "en": "A Metro file manager"
+      },
+      "description": {
+        "en": "Browse, copy, move, zip and free up space, with big readable names and flat accent tiles."
+      },
+      "icon": "icons/files.png",
+      "screenshots": [
+        "screenshots/files/folder.webp",
+        "screenshots/files/locations.webp",
+        "screenshots/files/storage.webp",
+        "screenshots/files/pictures.webp",
+        "screenshots/files/viewer.webp",
+        "screenshots/files/select.webp"
+      ],
+      "status": "apk",
+      "added": "2026-11-20",
+      "url": "https://urlshortener.at/fdzJU"
+    }
+  ],
+  "themes": [
+    {
+      "id": "store-midnight",
+      "name": {
+        "en": "Midnight"
+      },
+      "file": "themes/store-midnight.json",
+      "colors": [
+        "#FF070B1A",
+        "#FF0E1530",
+        "#FFE6ECFF",
+        "#FF3F66EF"
+      ],
+      "added": "2026-11-20"
+    },
+    {
+      "id": "store-forest",
+      "name": {
+        "en": "Forest"
+      },
+      "file": "themes/store-forest.json",
+      "colors": [
+        "#FF07120C",
+        "#FF0D1E14",
+        "#FFE4F2E8",
+        "#FF008B10"
+      ],
+      "added": "2026-11-20"
+    },
+    {
+      "id": "store-paper",
+      "name": {
+        "en": "Paper"
+      },
+      "file": "themes/store-paper.json",
+      "colors": [
+        "#FFF6F1E7",
+        "#FFEFE8DA",
+        "#FF2A2118",
+        "#FFA31028"
+      ],
+      "added": "2026-11-20"
+    }
+  ],
+  "wallpapers": [
+    {
+      "id": "tiles",
+      "name": {
+        "en": "Tiles"
+      },
+      "file": "wallpapers/tiles.jpg",
+      "thumb": "wallpapers/tiles_thumb.jpg",
+      "added": "2026-11-20"
+    },
+    {
+      "id": "bands",
+      "name": {
+        "en": "Bands"
+      },
+      "file": "wallpapers/bands.jpg",
+      "thumb": "wallpapers/bands_thumb.jpg",
+      "added": "2026-11-20"
+    },
+    {
+      "id": "ridge",
+      "name": {
+        "en": "Ridge"
+      },
+      "file": "wallpapers/ridge.jpg",
+      "thumb": "wallpapers/ridge_thumb.jpg",
+      "added": "2026-11-20"
+    },
+    {
+      "id": "dots",
+      "name": {
+        "en": "Dots"
+      },
+      "file": "wallpapers/dots.jpg",
+      "thumb": "wallpapers/dots_thumb.jpg",
+      "added": "2026-11-20"
+    }
+  ]
+}
