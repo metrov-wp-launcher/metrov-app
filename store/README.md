@@ -12,13 +12,18 @@ release is needed.
   "version": 1,
   "featured": "app:messages",
   "apps": [...],
+  "collections": [...],
   "themes": [...],
-  "wallpapers": [...]
+  "wallpapers": [...],
+  "tiles": [...],
+  "fonts": [...]
 }
 ```
 
 - `version`: the format version. Keep it at 1; METROV ignores a catalogue with a higher one.
-- `featured`: the item on the Store's first pane, as `app:<id>`, `theme:<id>` or `wallpaper:<id>`.
+- `featured`: the item on the Store's first pane (the weekly pick), as `app:<id>`, `theme:<id>`,
+  `wallpaper:<id>`, `tile:<id>` or `font:<id>`. METROV builds before tiles and fonts show their
+  first app when it names anything but an app.
 - Every name and text is a map of locale to text (`{"en": "...", "vi": "..."}`). `en` is required
   and is used when the phone's language is missing.
 - `added` (`YYYY-MM-DD`) is optional. An item a user has not seen yet counts towards the number
@@ -60,5 +65,37 @@ Applying a Store theme needs METROV premium.
 | `id`, `name` | as above |
 | `file` | full image, JPG, about 1440 x 3120 |
 | `thumb` | small JPG for the grid, about 360 x 780 |
+
+### collections
+
+Hand-picked sets, listed under the featured item.
+
+| field | |
+| --- | --- |
+| `id`, `name`, `description` | as above; `description` is optional |
+| `items` | item keys (`theme:store-ember`, `font:inter`). Keys not in the catalogue are skipped |
+
+### tiles
+
+Custom tiles, as `.mvtile` files exported from METROV's tile editor (Settings > Tiles > custom
+tiles > export). Adding one pins it to Start and puts it in the user's custom tiles. Needs premium.
+
+| field | |
+| --- | --- |
+| `id`, `name` | as above |
+| `file` | the `.mvtile` file |
+| `preview` | PNG of the tile at its shape, about 200 px per small-tile unit |
+
+### fonts
+
+| field | |
+| --- | --- |
+| `id` | as above |
+| `name` | the family's name, plain text (not a text map) |
+| `file` | `.ttf` or `.otf` |
+| `license` | shown on the font's page. Ship the licence file next to the font |
+
+METROV holds one custom font: a Store font replaces one the user imported (it asks first). Needs
+premium. Only add fonts whose licence allows redistribution, such as the SIL Open Font License.
 
 Only add images you made or may share. The starter set here was generated for METROV.

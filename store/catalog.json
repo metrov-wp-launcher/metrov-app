@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "featured": "app:dial",
+  "featured": "theme:store-ember",
   "apps": [
     {
       "id": "dial",
@@ -173,6 +173,66 @@
       "status": "web",
       "url": "https://tuzkituan.dev/nightcap",
       "added": "2026-11-20"
+    }
+  ],
+  "collections": [
+    {
+      "id": "dark-deep",
+      "name": {
+        "en": "Dark & deep",
+        "vi": "Tối & sâu"
+      },
+      "description": {
+        "en": "Low light, rich colour.",
+        "vi": "Ánh sáng dịu, màu sắc đậm."
+      },
+      "items": [
+        "theme:store-abyss",
+        "theme:store-graphite",
+        "theme:store-neon",
+        "wallpaper:tiles",
+        "tile:orbit",
+        "font:space-grotesk"
+      ]
+    },
+    {
+      "id": "soft-light",
+      "name": {
+        "en": "Soft & light",
+        "vi": "Nhẹ & sáng"
+      },
+      "description": {
+        "en": "Pale themes and gentle type.",
+        "vi": "Chủ đề nhạt và kiểu chữ nhẹ nhàng."
+      },
+      "items": [
+        "theme:store-lilac",
+        "theme:store-sakura",
+        "theme:store-matcha",
+        "theme:store-citrus",
+        "tile:bloom",
+        "font:quicksand",
+        "font:lexend"
+      ]
+    },
+    {
+      "id": "warm",
+      "name": {
+        "en": "Warm",
+        "vi": "Ấm áp"
+      },
+      "description": {
+        "en": "Embers, sunsets and coffee.",
+        "vi": "Than hồng, hoàng hôn và cà phê."
+      },
+      "items": [
+        "theme:store-ember",
+        "theme:store-espresso",
+        "theme:store-dune",
+        "wallpaper:ridge",
+        "tile:dawn",
+        "font:outfit"
+      ]
     }
   ],
   "themes": [
@@ -381,6 +441,112 @@
       "file": "wallpapers/dots.jpg",
       "thumb": "wallpapers/dots_thumb.jpg",
       "added": "2026-11-20"
+    }
+  ],
+  "tiles": [
+    {
+      "id": "dawn",
+      "name": {
+        "en": "Dawn",
+        "vi": "Bình minh"
+      },
+      "file": "tiles/dawn.mvtile",
+      "preview": "tiles/dawn.png",
+      "added": "2026-11-21"
+    },
+    {
+      "id": "lagoon",
+      "name": {
+        "en": "Lagoon",
+        "vi": "Đầm phá"
+      },
+      "file": "tiles/lagoon.mvtile",
+      "preview": "tiles/lagoon.png",
+      "added": "2026-11-21"
+    },
+    {
+      "id": "bloom",
+      "name": {
+        "en": "Bloom",
+        "vi": "Nở hoa"
+      },
+      "file": "tiles/bloom.mvtile",
+      "preview": "tiles/bloom.png",
+      "added": "2026-11-21"
+    },
+    {
+      "id": "orbit",
+      "name": {
+        "en": "Orbit",
+        "vi": "Quỹ đạo"
+      },
+      "file": "tiles/orbit.mvtile",
+      "preview": "tiles/orbit.png",
+      "added": "2026-11-21"
+    },
+    {
+      "id": "prism",
+      "name": {
+        "en": "Prism",
+        "vi": "Lăng kính"
+      },
+      "file": "tiles/prism.mvtile",
+      "preview": "tiles/prism.png",
+      "added": "2026-11-21"
+    },
+    {
+      "id": "heart",
+      "name": {
+        "en": "Pixel heart",
+        "vi": "Trái tim pixel"
+      },
+      "file": "tiles/heart.mvtile",
+      "preview": "tiles/heart.png",
+      "added": "2026-11-21"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "inter",
+      "name": "Inter",
+      "file": "fonts/Inter.ttf",
+      "license": "SIL OFL 1.1",
+      "added": "2026-11-21"
+    },
+    {
+      "id": "lexend",
+      "name": "Lexend",
+      "file": "fonts/Lexend.ttf",
+      "license": "SIL OFL 1.1",
+      "added": "2026-11-21"
+    },
+    {
+      "id": "outfit",
+      "name": "Outfit",
+      "file": "fonts/Outfit.ttf",
+      "license": "SIL OFL 1.1",
+      "added": "2026-11-21"
+    },
+    {
+      "id": "space-grotesk",
+      "name": "Space Grotesk",
+      "file": "fonts/SpaceGrotesk.ttf",
+      "license": "SIL OFL 1.1",
+      "added": "2026-11-21"
+    },
+    {
+      "id": "dm-sans",
+      "name": "DM Sans",
+      "file": "fonts/DMSans.ttf",
+      "license": "SIL OFL 1.1",
+      "added": "2026-11-21"
+    },
+    {
+      "id": "quicksand",
+      "name": "Quicksand",
+      "file": "fonts/Quicksand.ttf",
+      "license": "SIL OFL 1.1",
+      "added": "2026-11-21"
     }
   ]
 }
