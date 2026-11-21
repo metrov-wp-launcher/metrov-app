@@ -75,6 +75,33 @@
       "added": "2026-11-20"
     },
     {
+      "id": "fimie",
+      "package": "com.tuzkituan.fimie",
+      "name": {
+        "en": "FIMIE"
+      },
+      "tagline": {
+        "en": "Give your photos the analog film look"
+      },
+      "description": {
+        "en": "A film camera and photo editor. 43 film looks modelled on the classics, AUTO to pick the ones that suit each photo, a live film camera, lab-scan borders, glow, light leaks and date stamps. Edits never touch the original, and your photos never leave the phone."
+      },
+      "icon": "icons/fimie.png",
+      "screenshots": [
+        "screenshots/fimie/film-looks.webp",
+        "screenshots/fimie/auto.webp",
+        "screenshots/fimie/all-films.webp",
+        "screenshots/fimie/borders.webp",
+        "screenshots/fimie/filters.webp",
+        "screenshots/fimie/roll.webp"
+      ],
+      "status": "soon",
+      "added": "2026-11-20",
+      "url": "https://tuzkituan.dev/fimie"
+    }
+  ],
+  "hiddenApps": [
+    {
       "id": "keyboard",
       "package": "com.tuzkituan.metrov.keyboard",
       "name": {
@@ -123,31 +150,6 @@
       "status": "web",
       "added": "2026-11-20",
       "url": "https://tuzkituan.dev/files"
-    },
-    {
-      "id": "fimie",
-      "package": "com.tuzkituan.fimie",
-      "name": {
-        "en": "FIMIE"
-      },
-      "tagline": {
-        "en": "Give your photos the analog film look"
-      },
-      "description": {
-        "en": "A film camera and photo editor. 43 film looks modelled on the classics, AUTO to pick the ones that suit each photo, a live film camera, lab-scan borders, glow, light leaks and date stamps. Edits never touch the original, and your photos never leave the phone."
-      },
-      "icon": "icons/fimie.png",
-      "screenshots": [
-        "screenshots/fimie/film-looks.webp",
-        "screenshots/fimie/auto.webp",
-        "screenshots/fimie/all-films.webp",
-        "screenshots/fimie/borders.webp",
-        "screenshots/fimie/filters.webp",
-        "screenshots/fimie/roll.webp"
-      ],
-      "status": "soon",
-      "added": "2026-11-20",
-      "url": "https://tuzkituan.dev/fimie"
     },
     {
       "id": "nightcap",
