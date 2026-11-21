@@ -7,14 +7,16 @@
   "mode": "dark",
   "palette": {
     "light": {
-      "scaffoldBg": "#FFFFFFFF",
-      "surface": "#FFFAFAFA",
-      "primaryText": "#FF0A0A0A",
-      "secondaryText": "#FF6B6B6B",
-      "border": "#FFE6E6E6",
-      "appBarBg": "#FFF4F4F4",
-      "tileBg": "#8C00ACB8",
-      "liveTileText": "#FFFFFFFF"
+      "scaffoldBg": "#FFF5F9FA",
+      "surface": "#FFE8F2F3",
+      "primaryText": "#FF13292A",
+      "secondaryText": "#FF597A7D",
+      "border": "#FFCDDEDF",
+      "appBarBg": "#FFEFF5F6",
+      "scrim": "#99000000",
+      "tileBg": "#8CCAE6E7",
+      "tileText": "#FF1D4749",
+      "liveTileText": "#FF1D4749"
     },
     "dark": {
       "scaffoldBg": "#FF031418",
@@ -41,9 +43,9 @@
   "elements": {
     "button": {
       "light": {
-        "fill": "#8C00ACB8",
-        "foreground": "#FF000000",
-        "borderColor": "#FF1C5A63",
+        "fill": "#8CCAE6E7",
+        "foreground": "#FF1D4749",
+        "borderColor": "#FFE6F4F6",
         "borderWidth": 1.0,
         "activeFillIsAccent": true
       },
@@ -57,12 +59,12 @@
     },
     "circleButton": {
       "light": {
-        "fill": "#8C00ACB8",
-        "foreground": "#FF000000",
-        "borderColor": "#FF1C5A63",
+        "fill": "#8CCAE6E7",
+        "foreground": "#FF1D4749",
+        "borderColor": "#FFE6F4F6",
         "borderWidth": 1.0,
-        "activeFill": "#8C007C85",
-        "activeForeground": "#FFFFFFFF"
+        "activeFill": "#8CDEFAFC",
+        "activeForeground": "#FF1D4749"
       },
       "dark": {
         "fill": "#8C00ACB8",
@@ -75,9 +77,9 @@
     },
     "checkbox": {
       "light": {
-        "fill": "#8C00ACB8",
-        "foreground": "#FF000000",
-        "borderColor": "#FF1C5A63",
+        "fill": "#8CCAE6E7",
+        "foreground": "#FF1D4749",
+        "borderColor": "#FFE6F4F6",
         "borderWidth": 1.0,
         "activeFillIsAccent": true,
         "activeBorderColorIsAccent": true
@@ -93,9 +95,9 @@
     },
     "switchTrack": {
       "light": {
-        "fill": "#8C00ACB8",
-        "foreground": "#FF000000",
-        "borderColor": "#FF1C5A63",
+        "fill": "#8CCAE6E7",
+        "foreground": "#FF1D4749",
+        "borderColor": "#FFE6F4F6",
         "borderWidth": 1.0,
         "activeFillIsAccent": true
       },
@@ -109,9 +111,9 @@
     },
     "switchFrame": {
       "light": {
-        "fill": "#8C00ACB8",
-        "foreground": "#FF000000",
-        "borderColor": "#FF1C5A63",
+        "fill": "#8CCAE6E7",
+        "foreground": "#FF1D4749",
+        "borderColor": "#FFE6F4F6",
         "borderWidth": 1.0
       },
       "dark": {
@@ -123,9 +125,9 @@
     },
     "switchThumb": {
       "light": {
-        "fill": "#8C00ACB8",
-        "foreground": "#FF000000",
-        "borderColor": "#FF1C5A63",
+        "fill": "#8CCAE6E7",
+        "foreground": "#FF1D4749",
+        "borderColor": "#FFE6F4F6",
         "borderWidth": 1.0
       },
       "dark": {
@@ -137,9 +139,9 @@
     },
     "slider": {
       "light": {
-        "fill": "#8C00ACB8",
-        "foreground": "#FF000000",
-        "borderColor": "#FF1C5A63",
+        "fill": "#8CCAE6E7",
+        "foreground": "#FF1D4749",
+        "borderColor": "#FFE6F4F6",
         "borderWidth": 1.0
       },
       "dark": {
@@ -151,9 +153,9 @@
     },
     "textField": {
       "light": {
-        "fill": "#8C00ACB8",
-        "foreground": "#FF000000",
-        "borderColor": "#FF1C5A63",
+        "fill": "#8CCAE6E7",
+        "foreground": "#FF1D4749",
+        "borderColor": "#FFE6F4F6",
         "borderWidth": 1.0
       },
       "dark": {
@@ -165,12 +167,12 @@
     },
     "select": {
       "light": {
-        "fill": "#8C00ACB8",
-        "foreground": "#FF000000",
-        "borderColor": "#FF1C5A63",
+        "fill": "#8CCAE6E7",
+        "foreground": "#FF1D4749",
+        "borderColor": "#FFE6F4F6",
         "borderWidth": 1.0,
-        "activeFill": "#8C00ACB8",
-        "activeForeground": "#FF000000",
+        "activeFill": "#8CCAE6E7",
+        "activeForeground": "#FF1D4749",
         "activeBorderColorIsAccent": true
       },
       "dark": {
@@ -185,9 +187,9 @@
     },
     "dialog": {
       "light": {
-        "fill": "#8C00ACB8",
-        "foreground": "#FF000000",
-        "borderColor": "#FF1C5A63",
+        "fill": "#8CCAE6E7",
+        "foreground": "#FF1D4749",
+        "borderColor": "#FFE6F4F6",
         "borderWidth": 1.0
       },
       "dark": {
@@ -199,9 +201,9 @@
     },
     "contextMenu": {
       "light": {
-        "fill": "#8C00ACB8",
-        "foreground": "#FF000000",
-        "borderColor": "#FF1C5A63",
+        "fill": "#8CCAE6E7",
+        "foreground": "#FF1D4749",
+        "borderColor": "#FFE6F4F6",
         "borderWidth": 1.0
       },
       "dark": {
@@ -213,9 +215,9 @@
     },
     "appBarButton": {
       "light": {
-        "fill": "#8C00ACB8",
-        "foreground": "#FF000000",
-        "borderColor": "#FF1C5A63",
+        "fill": "#8CCAE6E7",
+        "foreground": "#FF1D4749",
+        "borderColor": "#FFE6F4F6",
         "borderWidth": 1.0
       },
       "dark": {
@@ -227,12 +229,12 @@
     },
     "appBarCircleButton": {
       "light": {
-        "fill": "#8C00ACB8",
-        "foreground": "#FF000000",
-        "borderColor": "#FF1C5A63",
+        "fill": "#8CCAE6E7",
+        "foreground": "#FF1D4749",
+        "borderColor": "#FFE6F4F6",
         "borderWidth": 1.0,
-        "activeFill": "#8C007C85",
-        "activeForeground": "#FFFFFFFF"
+        "activeFill": "#8CDEFAFC",
+        "activeForeground": "#FF1D4749"
       },
       "dark": {
         "fill": "#8C00ACB8",
@@ -245,12 +247,12 @@
     },
     "circleSmallButton": {
       "light": {
-        "fill": "#8C00ACB8",
-        "foreground": "#FF000000",
-        "borderColor": "#FF1C5A63",
+        "fill": "#8CCAE6E7",
+        "foreground": "#FF1D4749",
+        "borderColor": "#FFE6F4F6",
         "borderWidth": 1.0,
-        "activeFill": "#8C007C85",
-        "activeForeground": "#FFFFFFFF"
+        "activeFill": "#8CDEFAFC",
+        "activeForeground": "#FF1D4749"
       },
       "dark": {
         "fill": "#8C00ACB8",
@@ -263,9 +265,9 @@
     },
     "systemControl": {
       "light": {
-        "fill": "#8C00ACB8",
-        "foreground": "#FF000000",
-        "borderColor": "#FF1C5A63",
+        "fill": "#8CCAE6E7",
+        "foreground": "#FF1D4749",
+        "borderColor": "#FFE6F4F6",
         "borderWidth": 1.0,
         "activeFillIsAccent": true
       },
@@ -279,9 +281,9 @@
     },
     "alphabetSection": {
       "light": {
-        "fill": "#8C00ACB8",
-        "foreground": "#FF000000",
-        "borderColor": "#FF1C5A63",
+        "fill": "#8CCAE6E7",
+        "foreground": "#FF1D4749",
+        "borderColor": "#FFE6F4F6",
         "borderWidth": 1.0
       },
       "dark": {
@@ -294,8 +296,8 @@
     "alphabetOverlay": {
       "light": {
         "fill": "#00000000",
-        "foreground": "#FFFFFFFF",
-        "borderColor": "#FF1C5A63",
+        "foreground": "#FF1D4749",
+        "borderColor": "#FFE6F4F6",
         "borderWidth": 1.0,
         "fillIsAccent": true
       },
@@ -309,9 +311,9 @@
     },
     "settingsCard": {
       "light": {
-        "fill": "#8C00ACB8",
-        "foreground": "#FF000000",
-        "borderColor": "#FF1C5A63",
+        "fill": "#8CCAE6E7",
+        "foreground": "#FF1D4749",
+        "borderColor": "#FFE6F4F6",
         "borderWidth": 1.0
       },
       "dark": {

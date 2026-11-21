@@ -18,15 +18,16 @@
       "liveTileText": "#FF24331A"
     },
     "dark": {
-      "scaffoldBg": "#FF000000",
-      "surface": "#FF0A0A0A",
-      "primaryText": "#FFEDEDED",
-      "secondaryText": "#FF8A8A8A",
-      "border": "#FF1F1F1F",
-      "appBarBg": "#FF050505",
-      "tileBg": "#FFD8E6C6",
-      "liveTileText": "#FF24331A",
-      "scrim": "#E6000000"
+      "scaffoldBg": "#FF12160D",
+      "surface": "#FF1F2518",
+      "primaryText": "#FFF0F5EB",
+      "secondaryText": "#FFADBBA0",
+      "border": "#FF38432D",
+      "appBarBg": "#FF1A1F14",
+      "scrim": "#E6000000",
+      "tileBg": "#FF4D6E2B",
+      "tileText": "#FFEDF6E4",
+      "liveTileText": "#FFEDF6E4"
     }
   },
   "tile": {
@@ -44,8 +45,8 @@
         "activeFillIsAccent": true
       },
       "dark": {
-        "fill": "#FFD8E6C6",
-        "foreground": "#FF000000",
+        "fill": "#FF4D6E2B",
+        "foreground": "#FFEDF6E4",
         "cornerRadius": 4.0,
         "activeFillIsAccent": true
       }
@@ -58,10 +59,10 @@
         "activeForeground": "#FF24331A"
       },
       "dark": {
-        "fill": "#FFD8E6C6",
-        "foreground": "#FF000000",
-        "activeFill": "#FFC0D6A3",
-        "activeForeground": "#FF000000"
+        "fill": "#FF4D6E2B",
+        "foreground": "#FFEDF6E4",
+        "activeFill": "#FF2F3C1F",
+        "activeForeground": "#FFEDF6E4"
       }
     },
     "checkbox": {
@@ -73,8 +74,8 @@
         "activeBorderColorIsAccent": true
       },
       "dark": {
-        "fill": "#FFD8E6C6",
-        "foreground": "#FF000000",
+        "fill": "#FF4D6E2B",
+        "foreground": "#FFEDF6E4",
         "cornerRadius": 4.0,
         "activeFillIsAccent": true,
         "activeBorderColorIsAccent": true
@@ -88,8 +89,8 @@
         "activeFillIsAccent": true
       },
       "dark": {
-        "fill": "#FFD8E6C6",
-        "foreground": "#FF000000",
+        "fill": "#FF4D6E2B",
+        "foreground": "#FFEDF6E4",
         "cornerRadius": 4.0,
         "activeFillIsAccent": true
       }
@@ -101,8 +102,8 @@
         "cornerRadius": 4.0
       },
       "dark": {
-        "fill": "#FFD8E6C6",
-        "foreground": "#FF000000",
+        "fill": "#FF4D6E2B",
+        "foreground": "#FFEDF6E4",
         "cornerRadius": 4.0
       }
     },
@@ -113,8 +114,8 @@
         "cornerRadius": 4.0
       },
       "dark": {
-        "fill": "#FFD8E6C6",
-        "foreground": "#FF000000",
+        "fill": "#FF4D6E2B",
+        "foreground": "#FFEDF6E4",
         "cornerRadius": 4.0
       }
     },
@@ -125,8 +126,8 @@
         "cornerRadius": 4.0
       },
       "dark": {
-        "fill": "#FFD8E6C6",
-        "foreground": "#FF000000",
+        "fill": "#FF4D6E2B",
+        "foreground": "#FFEDF6E4",
         "cornerRadius": 4.0
       }
     },
@@ -137,8 +138,8 @@
         "cornerRadius": 4.0
       },
       "dark": {
-        "fill": "#FFD8E6C6",
-        "foreground": "#FF000000",
+        "fill": "#FF4D6E2B",
+        "foreground": "#FFEDF6E4",
         "cornerRadius": 4.0
       }
     },
@@ -152,11 +153,11 @@
         "activeBorderColorIsAccent": true
       },
       "dark": {
-        "fill": "#FFD8E6C6",
-        "foreground": "#FF000000",
+        "fill": "#FF4D6E2B",
+        "foreground": "#FFEDF6E4",
         "cornerRadius": 4.0,
-        "activeFill": "#FFD8E6C6",
-        "activeForeground": "#FF000000",
+        "activeFill": "#FF4D6E2B",
+        "activeForeground": "#FFEDF6E4",
         "activeBorderColorIsAccent": true
       }
     },
@@ -167,8 +168,8 @@
         "cornerRadius": 4.0
       },
       "dark": {
-        "fill": "#FFD8E6C6",
-        "foreground": "#FF000000",
+        "fill": "#FF4D6E2B",
+        "foreground": "#FFEDF6E4",
         "cornerRadius": 4.0
       }
     },
@@ -179,8 +180,8 @@
         "cornerRadius": 4.0
       },
       "dark": {
-        "fill": "#FFD8E6C6",
-        "foreground": "#FF000000",
+        "fill": "#FF4D6E2B",
+        "foreground": "#FFEDF6E4",
         "cornerRadius": 4.0
       }
     },
@@ -191,8 +192,8 @@
         "cornerRadius": 4.0
       },
       "dark": {
-        "fill": "#FFD8E6C6",
-        "foreground": "#FF000000",
+        "fill": "#FF4D6E2B",
+        "foreground": "#FFEDF6E4",
         "cornerRadius": 4.0
       }
     },
@@ -204,10 +205,10 @@
         "activeForeground": "#FF24331A"
       },
       "dark": {
-        "fill": "#FFD8E6C6",
-        "foreground": "#FF000000",
-        "activeFill": "#FFC0D6A3",
-        "activeForeground": "#FF000000"
+        "fill": "#FF4D6E2B",
+        "foreground": "#FFEDF6E4",
+        "activeFill": "#FF2F3C1F",
+        "activeForeground": "#FFEDF6E4"
       }
     },
     "circleSmallButton": {
@@ -218,10 +219,10 @@
         "activeForeground": "#FF24331A"
       },
       "dark": {
-        "fill": "#FFD8E6C6",
-        "foreground": "#FF000000",
-        "activeFill": "#FFC0D6A3",
-        "activeForeground": "#FF000000"
+        "fill": "#FF4D6E2B",
+        "foreground": "#FFEDF6E4",
+        "activeFill": "#FF2F3C1F",
+        "activeForeground": "#FFEDF6E4"
       }
     },
     "systemControl": {
@@ -232,8 +233,8 @@
         "activeFillIsAccent": true
       },
       "dark": {
-        "fill": "#FFD8E6C6",
-        "foreground": "#FF000000",
+        "fill": "#FF4D6E2B",
+        "foreground": "#FFEDF6E4",
         "cornerRadius": 4.0,
         "activeFillIsAccent": true
       }
@@ -245,8 +246,8 @@
         "cornerRadius": 4.0
       },
       "dark": {
-        "fill": "#FFD8E6C6",
-        "foreground": "#FF000000",
+        "fill": "#FF4D6E2B",
+        "foreground": "#FFEDF6E4",
         "cornerRadius": 4.0
       }
     },
@@ -271,8 +272,8 @@
         "cornerRadius": 4.0
       },
       "dark": {
-        "fill": "#FFD8E6C6",
-        "foreground": "#FF000000",
+        "fill": "#FF4D6E2B",
+        "foreground": "#FFEDF6E4",
         "cornerRadius": 4.0
       }
     }

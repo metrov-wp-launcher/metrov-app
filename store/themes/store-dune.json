@@ -16,14 +16,14 @@
       "liveTileText": "#FFFFFFFF"
     },
     "dark": {
-      "scaffoldBg": "#FF000000",
-      "surface": "#FF0A0A0A",
-      "primaryText": "#FFEDEDED",
-      "secondaryText": "#FF8A8A8A",
-      "border": "#FF1F1F1F",
-      "appBarBg": "#FF050505",
-      "liveTileText": "#FFFFFFFF",
-      "scrim": "#E6000000"
+      "scaffoldBg": "#FF16100D",
+      "surface": "#FF251C18",
+      "primaryText": "#FFF5EEEB",
+      "secondaryText": "#FFBBA8A0",
+      "border": "#FF43332D",
+      "appBarBg": "#FF1F1714",
+      "scrim": "#E6000000",
+      "liveTileText": "#FFFFFFFF"
     }
   },
   "tile": {
@@ -43,8 +43,8 @@
       },
       "dark": {
         "fill": "#00000000",
-        "foreground": "#FFEDEDED",
-        "borderColor": "#FFEDEDED",
+        "foreground": "#FFF5EEEB",
+        "borderColor": "#FFF5EEEB",
         "borderWidth": 2.0,
         "activeFillIsAccent": true
       }
@@ -61,12 +61,12 @@
       },
       "dark": {
         "fill": "#00000000",
-        "foreground": "#FFEDEDED",
-        "borderColor": "#FFEDEDED",
+        "foreground": "#FFF5EEEB",
+        "borderColor": "#FFF5EEEB",
         "borderWidth": 2.5,
-        "activeFill": "#FFF2F2F2",
-        "activeForeground": "#FF000000",
-        "activeBorderColor": "#FFF2F2F2"
+        "activeFill": "#FF000000",
+        "activeForeground": "#FFFFFFFF",
+        "activeBorderColor": "#FF000000"
       }
     },
     "checkbox": {
@@ -79,7 +79,7 @@
         "activeBorderColorIsAccent": true
       },
       "dark": {
-        "fill": "#FF212121",
+        "fill": "#FF232323",
         "foreground": "#FFFFFFFF",
         "borderWidth": 1.5,
         "activeFillIsAccent": true,
@@ -96,9 +96,9 @@
         "activeFillIsAccent": true
       },
       "dark": {
-        "fill": "#FF000000",
-        "foreground": "#FFFFFFFF",
-        "borderColor": "#FF000000",
+        "fill": "#FFFFFFFF",
+        "foreground": "#FFF5EEEB",
+        "borderColor": "#FFFFFFFF",
         "borderWidth": 1.0,
         "activeFillIsAccent": true
       }
@@ -111,9 +111,9 @@
         "borderWidth": 2.0
       },
       "dark": {
-        "fill": "#FF000000",
-        "foreground": "#FFEDEDED",
-        "borderColor": "#FFEDEDED",
+        "fill": "#FFFFFFFF",
+        "foreground": "#FFF5EEEB",
+        "borderColor": "#FFF5EEEB",
         "borderWidth": 2.0
       }
     },
@@ -125,9 +125,9 @@
         "borderWidth": 2.0
       },
       "dark": {
-        "fill": "#FFFFFFFF",
-        "foreground": "#FFFFFFFF",
-        "borderColor": "#FF000000",
+        "fill": "#FF000000",
+        "foreground": "#FFF5EEEB",
+        "borderColor": "#FFFFFFFF",
         "borderWidth": 2.0
       }
     },
@@ -137,8 +137,8 @@
         "foreground": "#FF3B2A1A"
       },
       "dark": {
-        "fill": "#FF000000",
-        "foreground": "#FFEDEDED"
+        "fill": "#FF16100D",
+        "foreground": "#FFF5EEEB"
       }
     },
     "textField": {
@@ -150,8 +150,8 @@
         "borderColorIsAccent": true
       },
       "dark": {
-        "fill": "#FFF2F2F2",
-        "foreground": "#FF000000",
+        "fill": "#FF1D1D1D",
+        "foreground": "#FFF5EEEB",
         "borderColor": "#FF000000",
         "borderWidth": 2.0,
         "borderColorIsAccent": true
@@ -168,12 +168,12 @@
         "activeBorderColorIsAccent": true
       },
       "dark": {
-        "fill": "#FF000000",
-        "foreground": "#FFEDEDED",
-        "borderColor": "#FFEDEDED",
+        "fill": "#FF16100D",
+        "foreground": "#FFF5EEEB",
+        "borderColor": "#FFF5EEEB",
         "borderWidth": 2.0,
-        "activeFill": "#FFF2F2F2",
-        "activeForeground": "#FF000000",
+        "activeFill": "#FF1D1D1D",
+        "activeForeground": "#FFF5EEEB",
         "activeBorderColorIsAccent": true
       }
     },
@@ -183,8 +183,8 @@
         "foreground": "#FF3B2A1A"
       },
       "dark": {
-        "fill": "#FF000000",
-        "foreground": "#FFEDEDED"
+        "fill": "#FF16100D",
+        "foreground": "#FFF5EEEB"
       }
     },
     "contextMenu": {
@@ -193,8 +193,8 @@
         "foreground": "#FF3B2A1A"
       },
       "dark": {
-        "fill": "#FF000000",
-        "foreground": "#FFEDEDED"
+        "fill": "#FF16100D",
+        "foreground": "#FFF5EEEB"
       }
     },
     "appBarButton": {
@@ -203,8 +203,8 @@
         "foreground": "#FF3B2A1A"
       },
       "dark": {
-        "fill": "#FF050505",
-        "foreground": "#FFEDEDED"
+        "fill": "#FF1F1714",
+        "foreground": "#FFF5EEEB"
       }
     },
     "appBarCircleButton": {
@@ -218,13 +218,13 @@
         "activeBorderColor": "#FF000000"
       },
       "dark": {
-        "fill": "#26000000",
-        "foreground": "#FFEDEDED",
-        "borderColor": "#FFEDEDED",
+        "fill": "#26FFFFFF",
+        "foreground": "#FFF5EEEB",
+        "borderColor": "#FFF5EEEB",
         "borderWidth": 2.5,
-        "activeFill": "#FFF2F2F2",
-        "activeForeground": "#FF000000",
-        "activeBorderColor": "#FFF2F2F2"
+        "activeFill": "#FF000000",
+        "activeForeground": "#FFFFFFFF",
+        "activeBorderColor": "#FF000000"
       }
     },
     "circleSmallButton": {
@@ -238,13 +238,13 @@
         "activeBorderColor": "#FF000000"
       },
       "dark": {
-        "fill": "#FF000000",
-        "foreground": "#FFEDEDED",
-        "borderColor": "#FFEDEDED",
+        "fill": "#FF16100D",
+        "foreground": "#FFF5EEEB",
+        "borderColor": "#FFF5EEEB",
         "borderWidth": 2.5,
-        "activeFill": "#FFF2F2F2",
-        "activeForeground": "#FF000000",
-        "activeBorderColor": "#FFF2F2F2"
+        "activeFill": "#FF000000",
+        "activeForeground": "#FFFFFFFF",
+        "activeBorderColor": "#FF000000"
       }
     },
     "systemControl": {
@@ -255,8 +255,8 @@
         "activeFillIsAccent": true
       },
       "dark": {
-        "fill": "#1AFFFFFF",
-        "foreground": "#FFFFFFFF",
+        "fill": "#1A000000",
+        "foreground": "#FFF5EEEB",
         "activeForeground": "#FFFFFFFF",
         "activeFillIsAccent": true
       }
@@ -295,8 +295,8 @@
         "foreground": "#FF3B2A1A"
       },
       "dark": {
-        "fill": "#FF000000",
-        "foreground": "#FFEDEDED"
+        "fill": "#FF16100D",
+        "foreground": "#FFF5EEEB"
       }
     }
   }
