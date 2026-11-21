@@ -1,6 +1,9 @@
 {
   "version": 1,
-  "featured": "theme:store-sakura",
+  "featured": [
+    "app:dial",
+    "app:messages"
+  ],
   "apps": [
     {
       "id": "dial",
