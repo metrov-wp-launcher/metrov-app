@@ -452,7 +452,9 @@
       },
       "file": "tiles/dawn.mvtile",
       "preview": "tiles/dawn.png",
-      "added": "2026-11-21"
+      "added": "2026-11-21",
+      "size": "2x2",
+      "action": "none"
     },
     {
       "id": "lagoon",
@@ -462,7 +464,9 @@
       },
       "file": "tiles/lagoon.mvtile",
       "preview": "tiles/lagoon.png",
-      "added": "2026-11-21"
+      "added": "2026-11-21",
+      "size": "2x2",
+      "action": "none"
     },
     {
       "id": "bloom",
@@ -472,7 +476,9 @@
       },
       "file": "tiles/bloom.mvtile",
       "preview": "tiles/bloom.png",
-      "added": "2026-11-21"
+      "added": "2026-11-21",
+      "size": "2x2",
+      "action": "none"
     },
     {
       "id": "orbit",
@@ -482,7 +488,9 @@
       },
       "file": "tiles/orbit.mvtile",
       "preview": "tiles/orbit.png",
-      "added": "2026-11-21"
+      "added": "2026-11-21",
+      "size": "2x2",
+      "action": "none"
     },
     {
       "id": "prism",
@@ -492,7 +500,9 @@
       },
       "file": "tiles/prism.mvtile",
       "preview": "tiles/prism.png",
-      "added": "2026-11-21"
+      "added": "2026-11-21",
+      "size": "2x2",
+      "action": "none"
     },
     {
       "id": "heart",
@@ -502,7 +512,9 @@
       },
       "file": "tiles/heart.mvtile",
       "preview": "tiles/heart.png",
-      "added": "2026-11-21"
+      "added": "2026-11-21",
+      "size": "1x1",
+      "action": "none"
     },
     {
       "id": "community-tsblacgg",
@@ -512,7 +524,9 @@
       "author": "Tuan",
       "added": "2026-11-21",
       "file": "tiles/community-tsblacgg.mvtile",
-      "preview": "tiles/community-tsblacgg.png"
+      "preview": "tiles/community-tsblacgg.png",
+      "size": "2x2",
+      "action": "none"
     }
   ],
   "fonts": [
