@@ -503,6 +503,16 @@
       "file": "tiles/heart.mvtile",
       "preview": "tiles/heart.png",
       "added": "2026-11-21"
+    },
+    {
+      "id": "community-tsblacgg",
+      "name": {
+        "en": "Tile test"
+      },
+      "author": "Tuan",
+      "added": "2026-11-21",
+      "file": "tiles/community-tsblacgg.mvtile",
+      "preview": "tiles/community-tsblacgg.png"
     }
   ],
   "fonts": [
