@@ -177,46 +177,172 @@
   ],
   "themes": [
     {
-      "id": "store-midnight",
+      "id": "store-abyss",
       "name": {
-        "en": "Midnight"
+        "en": "Abyss"
       },
-      "file": "themes/store-midnight.json",
+      "file": "themes/store-abyss.json",
       "colors": [
-        "#FF070B1A",
-        "#FF0E1530",
-        "#FFE6ECFF",
-        "#FF3F66EF"
+        "#FF031418",
+        "#FF082229",
+        "#FFDDF6F7",
+        "#FF00ACB8"
       ],
-      "added": "2026-11-20"
+      "added": "2026-11-21"
     },
     {
-      "id": "store-forest",
+      "id": "store-aurora",
       "name": {
-        "en": "Forest"
+        "en": "Aurora"
       },
-      "file": "themes/store-forest.json",
+      "file": "themes/store-aurora.json",
       "colors": [
-        "#FF07120C",
-        "#FF0D1E14",
-        "#FFE4F2E8",
-        "#FF008B10"
+        "#FF061019",
+        "#FF0C1B28",
+        "#FFE3F7F1",
+        "#FF2FBF9F"
       ],
-      "added": "2026-11-20"
+      "added": "2026-11-21"
     },
     {
-      "id": "store-paper",
+      "id": "store-citrus",
       "name": {
-        "en": "Paper"
+        "en": "Citrus"
       },
-      "file": "themes/store-paper.json",
+      "file": "themes/store-citrus.json",
       "colors": [
-        "#FFF6F1E7",
-        "#FFEFE8DA",
-        "#FF2A2118",
-        "#FFA31028"
+        "#FFFFFBEA",
+        "#FFFFF4CC",
+        "#FF2B2600",
+        "#FFF0A41B"
       ],
-      "added": "2026-11-20"
+      "added": "2026-11-21"
+    },
+    {
+      "id": "store-dune",
+      "name": {
+        "en": "Dune"
+      },
+      "file": "themes/store-dune.json",
+      "colors": [
+        "#FFF3E6D3",
+        "#FFEAD9C0",
+        "#FF3B2A1A",
+        "#FFB0522D"
+      ],
+      "added": "2026-11-21"
+    },
+    {
+      "id": "store-ember",
+      "name": {
+        "en": "Ember"
+      },
+      "file": "themes/store-ember.json",
+      "colors": [
+        "#FF120A07",
+        "#FF1E120C",
+        "#FFFBE9DE",
+        "#FFFA6912"
+      ],
+      "added": "2026-11-21"
+    },
+    {
+      "id": "store-espresso",
+      "name": {
+        "en": "Espresso"
+      },
+      "file": "themes/store-espresso.json",
+      "colors": [
+        "#FF140E0A",
+        "#FF201812",
+        "#FFF2E6D8",
+        "#FFD4A017"
+      ],
+      "added": "2026-11-21"
+    },
+    {
+      "id": "store-fjord",
+      "name": {
+        "en": "Fjord"
+      },
+      "file": "themes/store-fjord.json",
+      "colors": [
+        "#FF1B222C",
+        "#FF232C38",
+        "#FFE6EDF5",
+        "#FF4FB4F0"
+      ],
+      "added": "2026-11-21"
+    },
+    {
+      "id": "store-graphite",
+      "name": {
+        "en": "Graphite"
+      },
+      "file": "themes/store-graphite.json",
+      "colors": [
+        "#FF121314",
+        "#FF1B1C1E",
+        "#FFECEDEE",
+        "#FFB4BAC2"
+      ],
+      "added": "2026-11-21"
+    },
+    {
+      "id": "store-lilac",
+      "name": {
+        "en": "Lilac"
+      },
+      "file": "themes/store-lilac.json",
+      "colors": [
+        "#FFF5F1FB",
+        "#FFECE5F7",
+        "#FF2A2238",
+        "#FFB07EDC"
+      ],
+      "added": "2026-11-21"
+    },
+    {
+      "id": "store-matcha",
+      "name": {
+        "en": "Matcha"
+      },
+      "file": "themes/store-matcha.json",
+      "colors": [
+        "#FFEEF3E6",
+        "#FFE3EBD7",
+        "#FF1F2A16",
+        "#FF61AA18"
+      ],
+      "added": "2026-11-21"
+    },
+    {
+      "id": "store-neon",
+      "name": {
+        "en": "Neon"
+      },
+      "file": "themes/store-neon.json",
+      "colors": [
+        "#FF05030A",
+        "#FF0E0918",
+        "#FFF3EAFF",
+        "#FFD91074"
+      ],
+      "added": "2026-11-21"
+    },
+    {
+      "id": "store-sakura",
+      "name": {
+        "en": "Sakura"
+      },
+      "file": "themes/store-sakura.json",
+      "colors": [
+        "#FFFFF4F6",
+        "#FFFFE9EE",
+        "#FF3A1E27",
+        "#FFF76F8E"
+      ],
+      "added": "2026-11-21"
     }
   ],
   "wallpapers": [

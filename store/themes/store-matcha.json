@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 2,
+  "id": "store-matcha",
+  "name": "Matcha",
+  "author": "METROV",
+  "version": "1.0.0",
+  "mode": "light",
+  "palette": {
+    "light": {
+      "scaffoldBg": "#FFEEF3E6",
+      "surface": "#FFE3EBD7",
+      "primaryText": "#FF1F2A16",
+      "secondaryText": "#FF66755A",
+      "border": "#FFCFDCBE",
+      "appBarBg": "#FFE7EEDC",
+      "tileBg": "#FFD8E6C6",
+      "tileText": "#FF24331A",
+      "liveTileText": "#FF24331A"
+    },
+    "dark": {
+      "scaffoldBg": "#FF000000",
+      "surface": "#FF0A0A0A",
+      "primaryText": "#FFEDEDED",
+      "secondaryText": "#FF8A8A8A",
+      "border": "#FF1F1F1F",
+      "appBarBg": "#FF050505",
+      "tileBg": "#FFD8E6C6",
+      "liveTileText": "#FF24331A",
+      "scrim": "#E6000000"
+    }
+  },
+  "tile": {
+    "cornerRadius": 4.0,
+    "backgroundOpacity": 1.0
+  },
+  "defaultAccentName": "green",
+  "settingsIcons": true,
+  "elements": {
+    "button": {
+      "light": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF24331A",
+        "cornerRadius": 4.0,
+        "activeFillIsAccent": true
+      },
+      "dark": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF000000",
+        "cornerRadius": 4.0,
+        "activeFillIsAccent": true
+      }
+    },
+    "circleButton": {
+      "light": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF24331A",
+        "activeFill": "#FFC0D6A3",
+        "activeForeground": "#FF24331A"
+      },
+      "dark": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF000000",
+        "activeFill": "#FFC0D6A3",
+        "activeForeground": "#FF000000"
+      }
+    },
+    "checkbox": {
+      "light": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF24331A",
+        "cornerRadius": 4.0,
+        "activeFillIsAccent": true,
+        "activeBorderColorIsAccent": true
+      },
+      "dark": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF000000",
+        "cornerRadius": 4.0,
+        "activeFillIsAccent": true,
+        "activeBorderColorIsAccent": true
+      }
+    },
+    "switchTrack": {
+      "light": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF24331A",
+        "cornerRadius": 4.0,
+        "activeFillIsAccent": true
+      },
+      "dark": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF000000",
+        "cornerRadius": 4.0,
+        "activeFillIsAccent": true
+      }
+    },
+    "switchFrame": {
+      "light": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF24331A",
+        "cornerRadius": 4.0
+      },
+      "dark": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF000000",
+        "cornerRadius": 4.0
+      }
+    },
+    "switchThumb": {
+      "light": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF24331A",
+        "cornerRadius": 4.0
+      },
+      "dark": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF000000",
+        "cornerRadius": 4.0
+      }
+    },
+    "slider": {
+      "light": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF24331A",
+        "cornerRadius": 4.0
+      },
+      "dark": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF000000",
+        "cornerRadius": 4.0
+      }
+    },
+    "textField": {
+      "light": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF24331A",
+        "cornerRadius": 4.0
+      },
+      "dark": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF000000",
+        "cornerRadius": 4.0
+      }
+    },
+    "select": {
+      "light": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF24331A",
+        "cornerRadius": 4.0,
+        "activeFill": "#FFD8E6C6",
+        "activeForeground": "#FF24331A",
+        "activeBorderColorIsAccent": true
+      },
+      "dark": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF000000",
+        "cornerRadius": 4.0,
+        "activeFill": "#FFD8E6C6",
+        "activeForeground": "#FF000000",
+        "activeBorderColorIsAccent": true
+      }
+    },
+    "dialog": {
+      "light": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF24331A",
+        "cornerRadius": 4.0
+      },
+      "dark": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF000000",
+        "cornerRadius": 4.0
+      }
+    },
+    "contextMenu": {
+      "light": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF24331A",
+        "cornerRadius": 4.0
+      },
+      "dark": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF000000",
+        "cornerRadius": 4.0
+      }
+    },
+    "appBarButton": {
+      "light": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF24331A",
+        "cornerRadius": 4.0
+      },
+      "dark": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF000000",
+        "cornerRadius": 4.0
+      }
+    },
+    "appBarCircleButton": {
+      "light": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF24331A",
+        "activeFill": "#FFC0D6A3",
+        "activeForeground": "#FF24331A"
+      },
+      "dark": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF000000",
+        "activeFill": "#FFC0D6A3",
+        "activeForeground": "#FF000000"
+      }
+    },
+    "circleSmallButton": {
+      "light": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF24331A",
+        "activeFill": "#FFC0D6A3",
+        "activeForeground": "#FF24331A"
+      },
+      "dark": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF000000",
+        "activeFill": "#FFC0D6A3",
+        "activeForeground": "#FF000000"
+      }
+    },
+    "systemControl": {
+      "light": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF24331A",
+        "cornerRadius": 4.0,
+        "activeFillIsAccent": true
+      },
+      "dark": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF000000",
+        "cornerRadius": 4.0,
+        "activeFillIsAccent": true
+      }
+    },
+    "alphabetSection": {
+      "light": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF24331A",
+        "cornerRadius": 4.0
+      },
+      "dark": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF000000",
+        "cornerRadius": 4.0
+      }
+    },
+    "alphabetOverlay": {
+      "light": {
+        "fill": "#00000000",
+        "foreground": "#FFFFFFFF",
+        "cornerRadius": 4.0,
+        "fillIsAccent": true
+      },
+      "dark": {
+        "fill": "#00000000",
+        "foreground": "#FFFFFFFF",
+        "cornerRadius": 4.0,
+        "fillIsAccent": true
+      }
+    },
+    "settingsCard": {
+      "light": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF24331A",
+        "cornerRadius": 4.0
+      },
+      "dark": {
+        "fill": "#FFD8E6C6",
+        "foreground": "#FF000000",
+        "cornerRadius": 4.0
+      }
+    }
+  }
+}

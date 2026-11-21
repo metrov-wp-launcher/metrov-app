@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 2,
+  "id": "store-citrus",
+  "name": "Citrus",
+  "author": "METROV",
+  "version": "1.0.0",
+  "mode": "light",
+  "palette": {
+    "light": {
+      "scaffoldBg": "#FFFFFBEA",
+      "surface": "#FFFFF4CC",
+      "primaryText": "#FF2B2600",
+      "secondaryText": "#FF7A6F33",
+      "border": "#FFF1E3A6",
+      "appBarBg": "#FFFFF7D6",
+      "liveTileText": "#FFFFFFFF"
+    },
+    "dark": {
+      "scaffoldBg": "#FF000000",
+      "surface": "#FF0A0A0A",
+      "primaryText": "#FFEDEDED",
+      "secondaryText": "#FF8A8A8A",
+      "border": "#FF1F1F1F",
+      "appBarBg": "#FF050505",
+      "liveTileText": "#FFFFFFFF",
+      "scrim": "#E6000000"
+    }
+  },
+  "tile": {
+    "cornerRadius": 2.0,
+    "backgroundOpacity": 1.0
+  },
+  "defaultAccentName": "amber",
+  "settingsIcons": true,
+  "elements": {
+    "button": {
+      "light": {
+        "fill": "#FFF2EEDE",
+        "foreground": "#FF000000",
+        "cornerRadius": 2.0,
+        "activeFillIsAccent": true
+      },
+      "dark": {
+        "fill": "#FF171717",
+        "foreground": "#FFFFFFFF",
+        "cornerRadius": 2.0,
+        "activeFillIsAccent": true
+      }
+    },
+    "circleButton": {
+      "light": {
+        "fill": "#FFFFFBEA",
+        "foreground": "#FF2B2600",
+        "fillIsAccent": true
+      },
+      "dark": {
+        "fill": "#FF000000",
+        "foreground": "#FFEDEDED",
+        "fillIsAccent": true
+      }
+    },
+    "checkbox": {
+      "light": {
+        "fill": "#FFD5D5D5",
+        "foreground": "#FF000000",
+        "cornerRadius": 2.0,
+        "activeFillIsAccent": true,
+        "activeBorderColorIsAccent": true
+      },
+      "dark": {
+        "fill": "#FF353535",
+        "foreground": "#FFFFFFFF",
+        "cornerRadius": 2.0,
+        "activeFillIsAccent": true,
+        "activeBorderColorIsAccent": true
+      }
+    },
+    "switchTrack": {
+      "light": {
+        "fill": "#FFF2F2F2",
+        "foreground": "#FF000000",
+        "cornerRadius": 2.0,
+        "activeFillIsAccent": true
+      },
+      "dark": {
+        "fill": "#FF171717",
+        "foreground": "#FFFFFFFF",
+        "cornerRadius": 2.0,
+        "activeFillIsAccent": true
+      }
+    },
+    "switchFrame": {
+      "light": {
+        "fill": "#FFF2F2F2",
+        "foreground": "#FF000000",
+        "cornerRadius": 2.0
+      },
+      "dark": {
+        "fill": "#FF171717",
+        "foreground": "#FFFFFFFF",
+        "cornerRadius": 2.0
+      }
+    },
+    "switchThumb": {
+      "light": {
+        "fill": "#FF000000",
+        "foreground": "#FFFFFFFF",
+        "cornerRadius": 2.0
+      },
+      "dark": {
+        "fill": "#FFFFFFFF",
+        "foreground": "#FF000000",
+        "cornerRadius": 2.0
+      }
+    },
+    "slider": {
+      "light": {
+        "fill": "#FFF2EEDE",
+        "foreground": "#FF000000",
+        "cornerRadius": 2.0
+      },
+      "dark": {
+        "fill": "#FF171717",
+        "foreground": "#FFFFFFFF",
+        "cornerRadius": 2.0
+      }
+    },
+    "textField": {
+      "light": {
+        "fill": "#FFE6E6E6",
+        "foreground": "#FF000000",
+        "cornerRadius": 2.0
+      },
+      "dark": {
+        "fill": "#FFF3F3F3",
+        "foreground": "#FF000000",
+        "cornerRadius": 2.0
+      }
+    },
+    "select": {
+      "light": {
+        "fill": "#FFF2EEDE",
+        "foreground": "#FF000000",
+        "cornerRadius": 2.0,
+        "activeFill": "#FFE6E6E6",
+        "activeForeground": "#FF000000",
+        "activeBorderColorIsAccent": true
+      },
+      "dark": {
+        "fill": "#FF171717",
+        "foreground": "#FFFFFFFF",
+        "cornerRadius": 2.0,
+        "activeFill": "#FFF3F3F3",
+        "activeForeground": "#FF000000",
+        "activeBorderColorIsAccent": true
+      }
+    },
+    "dialog": {
+      "light": {
+        "fill": "#FFF2EEDE",
+        "foreground": "#FF000000",
+        "cornerRadius": 2.0
+      },
+      "dark": {
+        "fill": "#FF171717",
+        "foreground": "#FFFFFFFF",
+        "cornerRadius": 2.0
+      }
+    },
+    "contextMenu": {
+      "light": {
+        "fill": "#FFF2EEDE",
+        "foreground": "#FF000000",
+        "cornerRadius": 2.0
+      },
+      "dark": {
+        "fill": "#FF171717",
+        "foreground": "#FFFFFFFF",
+        "cornerRadius": 2.0
+      }
+    },
+    "appBarButton": {
+      "light": {
+        "fill": "#FFF2EBCB",
+        "foreground": "#FF000000",
+        "cornerRadius": 2.0
+      },
+      "dark": {
+        "fill": "#FF1C1C1C",
+        "foreground": "#FFFFFFFF",
+        "cornerRadius": 2.0
+      }
+    },
+    "appBarCircleButton": {
+      "light": {
+        "fill": "#FFFFFBEA",
+        "foreground": "#FF2B2600",
+        "fillIsAccent": true
+      },
+      "dark": {
+        "fill": "#FF000000",
+        "foreground": "#FFEDEDED",
+        "fillIsAccent": true
+      }
+    },
+    "circleSmallButton": {
+      "light": {
+        "fill": "#FFFFFBEA",
+        "foreground": "#FF2B2600",
+        "fillIsAccent": true
+      },
+      "dark": {
+        "fill": "#FF000000",
+        "foreground": "#FFEDEDED",
+        "fillIsAccent": true
+      }
+    },
+    "systemControl": {
+      "light": {
+        "fill": "#FFDAD6C8",
+        "foreground": "#FF000000",
+        "cornerRadius": 2.0,
+        "activeFillIsAccent": true
+      },
+      "dark": {
+        "fill": "#FF2F2F2F",
+        "foreground": "#FFFFFFFF",
+        "cornerRadius": 2.0,
+        "activeFillIsAccent": true
+      }
+    },
+    "alphabetSection": {
+      "light": {
+        "fill": "#FFF2EEDE",
+        "foreground": "#FF000000",
+        "cornerRadius": 2.0
+      },
+      "dark": {
+        "fill": "#FF171717",
+        "foreground": "#FFFFFFFF",
+        "cornerRadius": 2.0
+      }
+    },
+    "alphabetOverlay": {
+      "light": {
+        "fill": "#00000000",
+        "foreground": "#FFFFFFFF",
+        "cornerRadius": 2.0,
+        "fillIsAccent": true
+      },
+      "dark": {
+        "fill": "#00000000",
+        "foreground": "#FFFFFFFF",
+        "cornerRadius": 2.0,
+        "fillIsAccent": true
+      }
+    },
+    "settingsCard": {
+      "light": {
+        "fill": "#FFF2EEDE",
+        "foreground": "#FF000000",
+        "cornerRadius": 2.0
+      },
+      "dark": {
+        "fill": "#FF171717",
+        "foreground": "#FFFFFFFF",
+        "cornerRadius": 2.0
+      }
+    }
+  }
+}
