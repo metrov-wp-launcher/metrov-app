@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "featured": "look:dusk",
+  "featured": "theme:store-ember",
   "apps": [
     {
       "id": "dial",
@@ -175,85 +175,6 @@
       "added": "2026-11-20"
     }
   ],
-  "looks": [
-    {
-      "id": "dusk",
-      "name": {
-        "en": "Dusk",
-        "vi": "Hoàng hôn"
-      },
-      "theme": "store-ember",
-      "wallpaper": "ridge",
-      "added": "2026-11-21",
-      "wp10Style": true,
-      "blurTiles": true,
-      "blurLevel": 12,
-      "tileOpacity": 0.45
-    },
-    {
-      "id": "deep-sea",
-      "name": {
-        "en": "Deep sea",
-        "vi": "Biển sâu"
-      },
-      "theme": "store-abyss",
-      "wallpaper": "tiles",
-      "added": "2026-11-21",
-      "wp10Style": true,
-      "blurTiles": true,
-      "blurLevel": 16,
-      "tileOpacity": 0.4
-    },
-    {
-      "id": "night-drive",
-      "name": {
-        "en": "Night drive",
-        "vi": "Đêm phố"
-      },
-      "theme": "store-neon",
-      "wallpaper": "bands",
-      "added": "2026-11-21",
-      "wp10Style": true,
-      "tileOpacity": 0.85,
-      "dimWallpaper": true
-    },
-    {
-      "id": "canopy",
-      "name": {
-        "en": "Canopy",
-        "vi": "Tán lá"
-      },
-      "theme": "store-aurora",
-      "wallpaper": "dots",
-      "added": "2026-11-21",
-      "wp10Style": true,
-      "tileOpacity": 0.6,
-      "dimWallpaper": true
-    },
-    {
-      "id": "lavender",
-      "name": {
-        "en": "Lavender",
-        "vi": "Oải hương"
-      },
-      "theme": "store-lilac",
-      "wallpaper": "ridge",
-      "added": "2026-11-21",
-      "wp10Style": true,
-      "tileOpacity": 0.8
-    },
-    {
-      "id": "slate",
-      "name": {
-        "en": "Slate",
-        "vi": "Đá phiến"
-      },
-      "theme": "store-graphite",
-      "wallpaper": "tiles",
-      "added": "2026-11-21",
-      "tileOpacity": 0.9
-    }
-  ],
   "collections": [
     {
       "id": "dark-deep",
@@ -266,9 +187,6 @@
         "vi": "Ánh sáng dịu, màu sắc đậm."
       },
       "items": [
-        "look:deep-sea",
-        "look:night-drive",
-        "look:slate",
         "theme:store-abyss",
         "theme:store-graphite",
         "theme:store-neon",
@@ -288,7 +206,6 @@
         "vi": "Chủ đề nhạt và kiểu chữ nhẹ nhàng."
       },
       "items": [
-        "look:lavender",
         "theme:store-lilac",
         "theme:store-sakura",
         "theme:store-matcha",
@@ -309,7 +226,6 @@
         "vi": "Than hồng, hoàng hôn và cà phê."
       },
       "items": [
-        "look:dusk",
         "theme:store-ember",
         "theme:store-espresso",
         "theme:store-dune",

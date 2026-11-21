@@ -12,7 +12,6 @@ release is needed.
   "version": 1,
   "featured": "app:messages",
   "apps": [...],
-  "looks": [...],
   "collections": [...],
   "themes": [...],
   "wallpapers": [...],
@@ -22,9 +21,9 @@ release is needed.
 ```
 
 - `version`: the format version. Keep it at 1; METROV ignores a catalogue with a higher one.
-- `featured`: the item on the Store's first pane (the weekly pick), as `app:<id>`, `look:<id>`,
-  `theme:<id>`, `wallpaper:<id>`, `tile:<id>` or `font:<id>`. METROV builds before looks, tiles and
-  fonts show their first app when it names one of those.
+- `featured`: the item on the Store's first pane (the weekly pick), as `app:<id>`, `theme:<id>`,
+  `wallpaper:<id>`, `tile:<id>` or `font:<id>`. METROV builds before tiles and fonts show their
+  first app when it names anything but an app.
 - Every name and text is a map of locale to text (`{"en": "...", "vi": "..."}`). `en` is required
   and is used when the phone's language is missing.
 - `added` (`YYYY-MM-DD`) is optional. An item a user has not seen yet counts towards the number
@@ -67,20 +66,6 @@ Applying a Store theme needs METROV premium.
 | `file` | full image, JPG, about 1440 x 3120 |
 | `thumb` | small JPG for the grid, about 360 x 780 |
 
-### looks
-
-A theme and a wallpaper from this catalogue, applied in one tap with the tile treatment that suits
-them. A look whose `theme` or `wallpaper` is not in the catalogue is skipped. Needs premium.
-
-| field | |
-| --- | --- |
-| `id`, `name` | as above |
-| `theme`, `wallpaper` | ids from `themes` and `wallpapers` |
-| `wp10Style` | `true`: one wallpaper behind all of Start |
-| `blurTiles`, `blurLevel` | frosted tiles (needs `wp10Style`) and how strong, about 8 to 20 |
-| `tileOpacity` | 0 to 1 |
-| `dimWallpaper` | `true` darkens the wallpaper |
-
 ### collections
 
 Hand-picked sets, listed under the featured item.
@@ -88,7 +73,7 @@ Hand-picked sets, listed under the featured item.
 | field | |
 | --- | --- |
 | `id`, `name`, `description` | as above; `description` is optional |
-| `items` | item keys (`look:dusk`, `font:inter`). Keys not in the catalogue are skipped |
+| `items` | item keys (`theme:store-ember`, `font:inter`). Keys not in the catalogue are skipped |
 
 ### tiles
 
