@@ -712,6 +712,18 @@
       "preview": "tiles/community-cb5sa3dn.png",
       "size": "2x2",
       "action": "none"
+    },
+    {
+      "id": "community-jm5e8mag",
+      "name": {
+        "en": "Angry Birds"
+      },
+      "author": "Tuan Nguyen",
+      "added": "2026-11-22",
+      "file": "tiles/community-jm5e8mag.mvtile",
+      "preview": "tiles/community-jm5e8mag.png",
+      "size": "2x2",
+      "action": "none"
     }
   ],
   "fonts": [
