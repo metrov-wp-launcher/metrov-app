@@ -197,7 +197,12 @@
         "tile:penguin",
         "tile:owl",
         "tile:frog",
-        "tile:bear"
+        "tile:bear",
+        "tile:fish",
+        "tile:hedgehog",
+        "tile:koala",
+        "tile:chick",
+        "tile:mouse"
       ]
     },
     {
@@ -633,6 +638,66 @@
       "file": "tiles/bear.mvtile",
       "preview": "tiles/bear.png",
       "size": "2x2",
+      "action": "none",
+      "added": "2026-11-22"
+    },
+    {
+      "id": "fish",
+      "name": {
+        "en": "Goldie",
+        "vi": "Cá vàng"
+      },
+      "file": "tiles/fish.mvtile",
+      "preview": "tiles/fish.png",
+      "size": "2x2",
+      "action": "none",
+      "added": "2026-11-22"
+    },
+    {
+      "id": "hedgehog",
+      "name": {
+        "en": "Hedgehog",
+        "vi": "Nhím"
+      },
+      "file": "tiles/hedgehog.mvtile",
+      "preview": "tiles/hedgehog.png",
+      "size": "2x2",
+      "action": "none",
+      "added": "2026-11-22"
+    },
+    {
+      "id": "koala",
+      "name": {
+        "en": "Koala",
+        "vi": "Gấu túi"
+      },
+      "file": "tiles/koala.mvtile",
+      "preview": "tiles/koala.png",
+      "size": "2x2",
+      "action": "none",
+      "added": "2026-11-22"
+    },
+    {
+      "id": "chick",
+      "name": {
+        "en": "Chick",
+        "vi": "Gà con"
+      },
+      "file": "tiles/chick.mvtile",
+      "preview": "tiles/chick.png",
+      "size": "1x1",
+      "action": "none",
+      "added": "2026-11-22"
+    },
+    {
+      "id": "mouse",
+      "name": {
+        "en": "Mouse",
+        "vi": "Chuột nhắt"
+      },
+      "file": "tiles/mouse.mvtile",
+      "preview": "tiles/mouse.png",
+      "size": "1x1",
       "action": "none",
       "added": "2026-11-22"
     }
