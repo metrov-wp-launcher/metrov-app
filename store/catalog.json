@@ -700,6 +700,18 @@
       "size": "1x1",
       "action": "none",
       "added": "2026-11-22"
+    },
+    {
+      "id": "community-cb5sa3dn",
+      "name": {
+        "en": "Cortana"
+      },
+      "author": "Tuan Nguyen",
+      "added": "2026-11-22",
+      "file": "tiles/community-cb5sa3dn.mvtile",
+      "preview": "tiles/community-cb5sa3dn.png",
+      "size": "2x2",
+      "action": "none"
     }
   ],
   "fonts": [
