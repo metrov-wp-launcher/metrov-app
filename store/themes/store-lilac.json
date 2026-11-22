@@ -4,7 +4,6 @@
   "name": "Lilac",
   "author": "METROV",
   "version": "1.0.0",
-  "mode": "light",
   "palette": {
     "light": {
       "scaffoldBg": "#FFF5F1FB",

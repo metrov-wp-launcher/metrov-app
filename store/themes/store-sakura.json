@@ -4,7 +4,6 @@
   "name": "Sakura",
   "author": "METROV",
   "version": "1.0.0",
-  "mode": "light",
   "palette": {
     "light": {
       "scaffoldBg": "#FFFFF4F6",

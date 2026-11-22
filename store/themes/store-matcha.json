@@ -4,7 +4,6 @@
   "name": "Matcha",
   "author": "METROV",
   "version": "1.0.0",
-  "mode": "light",
   "palette": {
     "light": {
       "scaffoldBg": "#FFEEF3E6",

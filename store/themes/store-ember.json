@@ -4,7 +4,6 @@
   "name": "Ember",
   "author": "METROV",
   "version": "1.0.0",
-  "mode": "dark",
   "palette": {
     "light": {
       "scaffoldBg": "#FFFAF7F5",

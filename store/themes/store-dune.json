@@ -4,7 +4,6 @@
   "name": "Dune",
   "author": "METROV",
   "version": "1.0.0",
-  "mode": "light",
   "palette": {
     "light": {
       "scaffoldBg": "#FFF3E6D3",
