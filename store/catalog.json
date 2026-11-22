@@ -180,6 +180,27 @@
   ],
   "collections": [
     {
+      "id": "cute-animals",
+      "name": {
+        "en": "Cute animals",
+        "vi": "Thú cưng dễ thương"
+      },
+      "description": {
+        "en": "A little zoo for your Start screen.",
+        "vi": "Một sở thú nhỏ cho màn hình Start."
+      },
+      "items": [
+        "tile:cat",
+        "tile:fox",
+        "tile:panda",
+        "tile:bunny",
+        "tile:penguin",
+        "tile:owl",
+        "tile:frog",
+        "tile:bear"
+      ]
+    },
+    {
       "id": "dark-deep",
       "name": {
         "en": "Dark & deep",
@@ -518,6 +539,102 @@
       "added": "2026-11-21",
       "size": "1x1",
       "action": "none"
+    },
+    {
+      "id": "cat",
+      "name": {
+        "en": "Kitty",
+        "vi": "Mèo con"
+      },
+      "file": "tiles/cat.mvtile",
+      "preview": "tiles/cat.png",
+      "size": "2x2",
+      "action": "none",
+      "added": "2026-11-22"
+    },
+    {
+      "id": "fox",
+      "name": {
+        "en": "Fox",
+        "vi": "Cáo"
+      },
+      "file": "tiles/fox.mvtile",
+      "preview": "tiles/fox.png",
+      "size": "2x2",
+      "action": "none",
+      "added": "2026-11-22"
+    },
+    {
+      "id": "panda",
+      "name": {
+        "en": "Panda",
+        "vi": "Gấu trúc"
+      },
+      "file": "tiles/panda.mvtile",
+      "preview": "tiles/panda.png",
+      "size": "2x2",
+      "action": "none",
+      "added": "2026-11-22"
+    },
+    {
+      "id": "bunny",
+      "name": {
+        "en": "Bunny",
+        "vi": "Thỏ con"
+      },
+      "file": "tiles/bunny.mvtile",
+      "preview": "tiles/bunny.png",
+      "size": "2x2",
+      "action": "none",
+      "added": "2026-11-22"
+    },
+    {
+      "id": "penguin",
+      "name": {
+        "en": "Penguin",
+        "vi": "Chim cánh cụt"
+      },
+      "file": "tiles/penguin.mvtile",
+      "preview": "tiles/penguin.png",
+      "size": "2x2",
+      "action": "none",
+      "added": "2026-11-22"
+    },
+    {
+      "id": "owl",
+      "name": {
+        "en": "Owl",
+        "vi": "Cú mèo"
+      },
+      "file": "tiles/owl.mvtile",
+      "preview": "tiles/owl.png",
+      "size": "2x2",
+      "action": "none",
+      "added": "2026-11-22"
+    },
+    {
+      "id": "frog",
+      "name": {
+        "en": "Frog",
+        "vi": "Ếch"
+      },
+      "file": "tiles/frog.mvtile",
+      "preview": "tiles/frog.png",
+      "size": "2x2",
+      "action": "none",
+      "added": "2026-11-22"
+    },
+    {
+      "id": "bear",
+      "name": {
+        "en": "Teddy",
+        "vi": "Gấu nâu"
+      },
+      "file": "tiles/bear.mvtile",
+      "preview": "tiles/bear.png",
+      "size": "2x2",
+      "action": "none",
+      "added": "2026-11-22"
     }
   ],
   "fonts": [
