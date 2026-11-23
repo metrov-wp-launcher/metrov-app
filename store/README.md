@@ -99,3 +99,31 @@ METROV holds one custom font: a Store font replaces one the user imported (it as
 premium. Only add fonts whose licence allows redistribution, such as the SIL Open Font License.
 
 Only add images you made or may share. The starter set here was generated for METROV.
+
+## Community rules
+
+Premium users can send their own tiles and themes to the Store. Everything is reviewed before it
+appears, and what you send carries the name you chose.
+
+Send only what you made yourself:
+
+- **Your own work.** No copies of someone else's tile, theme or artwork, with or without changes.
+- **Brand logos only on tiles that open that brand's app.** A tile with an app's logo that opens
+  that app is fine. A logo used for anything else, or a tile that pretends to be official, is
+  turned down. Brand owners can ask for any item using their logo to be taken down.
+- **Nothing adult, violent, hateful or offensive**, in pictures or in names. Pictures are checked
+  automatically when you send them.
+- **No links, contact details or ads** in names or on tiles.
+
+Items that break these rules are turned down or removed. A sender who keeps sending them is
+blocked from the Store.
+
+**Reports.** Anyone can report an item from its page. An item reported by three people leaves the
+Store at once and comes back only if review finds nothing wrong.
+
+**Taking something back.** You can withdraw what you sent from **my submissions** in the
+Store at any time.
+
+**Copyright or trademark complaints.** Email tuannguyenitpy@gmail.com with a link to the item, or
+its name and author, and why it infringes your rights. Items are taken down within two working
+days of a valid request.
