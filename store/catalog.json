@@ -28,7 +28,9 @@
         "screenshots/dial/call-settings.webp"
       ],
       "status": "live",
-      "added": "2026-11-20"
+      "added": "2026-11-20",
+      "versionCode": 27,
+      "version": "1.5.5"
     },
     {
       "id": "messages",
@@ -52,7 +54,9 @@
         "screenshots/messages/custom-colors.webp"
       ],
       "status": "live",
-      "added": "2026-11-20"
+      "added": "2026-11-20",
+      "versionCode": 13,
+      "version": "0.1.8"
     },
     {
       "id": "navbar",
@@ -76,7 +80,9 @@
         "screenshots/navbar/settings-app.webp"
       ],
       "status": "live",
-      "added": "2026-11-20"
+      "added": "2026-11-20",
+      "versionCode": 5012,
+      "version": "0.4.3"
     },
     {
       "id": "keyboard",
