@@ -214,7 +214,7 @@
         "theme:store-abyss",
         "theme:store-graphite",
         "theme:store-neon",
-        "wallpaper:tiles",
+        "wallpaper:night",
         "font:space-grotesk"
       ]
     },
@@ -251,7 +251,7 @@
         "theme:store-ember",
         "theme:store-espresso",
         "theme:store-dune",
-        "wallpaper:ridge",
+        "wallpaper:ember",
         "font:outfit"
       ]
     }
@@ -428,15 +428,6 @@
   ],
   "wallpapers": [
     {
-      "id": "tiles",
-      "name": {
-        "en": "Tiles"
-      },
-      "file": "wallpapers/tiles.jpg",
-      "thumb": "wallpapers/tiles_thumb.jpg",
-      "added": "2026-11-20"
-    },
-    {
       "id": "bands",
       "name": {
         "en": "Bands"
@@ -446,22 +437,67 @@
       "added": "2026-11-20"
     },
     {
-      "id": "ridge",
+      "id": "ember",
       "name": {
-        "en": "Ridge"
+        "en": "Ember"
       },
-      "file": "wallpapers/ridge.jpg",
-      "thumb": "wallpapers/ridge_thumb.jpg",
-      "added": "2026-11-20"
+      "file": "wallpapers/ember.jpg",
+      "thumb": "wallpapers/ember_thumb.jpg",
+      "added": "2026-11-23"
     },
     {
-      "id": "dots",
+      "id": "summit",
       "name": {
-        "en": "Dots"
+        "en": "Summit"
       },
-      "file": "wallpapers/dots.jpg",
-      "thumb": "wallpapers/dots_thumb.jpg",
-      "added": "2026-11-20"
+      "file": "wallpapers/summit.jpg",
+      "thumb": "wallpapers/summit_thumb.jpg",
+      "added": "2026-11-23"
+    },
+    {
+      "id": "dusk",
+      "name": {
+        "en": "Dusk"
+      },
+      "file": "wallpapers/dusk.jpg",
+      "thumb": "wallpapers/dusk_thumb.jpg",
+      "added": "2026-11-23"
+    },
+    {
+      "id": "night",
+      "name": {
+        "en": "Night"
+      },
+      "file": "wallpapers/night.jpg",
+      "thumb": "wallpapers/night_thumb.jpg",
+      "added": "2026-11-23"
+    },
+    {
+      "id": "metro-grid",
+      "name": {
+        "en": "Grid"
+      },
+      "file": "wallpapers/metro-grid.jpg",
+      "thumb": "wallpapers/metro-grid_thumb.jpg",
+      "added": "2026-11-23"
+    },
+    {
+      "id": "metro-rings",
+      "name": {
+        "en": "Rings"
+      },
+      "file": "wallpapers/metro-rings.jpg",
+      "thumb": "wallpapers/metro-rings_thumb.jpg",
+      "added": "2026-11-23"
+    },
+    {
+      "id": "metro-rings-amber",
+      "name": {
+        "en": "Amber rings"
+      },
+      "file": "wallpapers/metro-rings-amber.jpg",
+      "thumb": "wallpapers/metro-rings-amber_thumb.jpg",
+      "added": "2026-11-23"
     }
   ],
   "tiles": [
