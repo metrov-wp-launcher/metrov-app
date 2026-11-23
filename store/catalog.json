@@ -2,8 +2,7 @@
   "version": 1,
   "submissions": false,
   "featured": [
-    "app:dial",
-    "app:messages"
+    "app:dial"
   ],
   "apps": [
     {
