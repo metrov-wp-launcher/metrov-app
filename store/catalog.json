@@ -1,5 +1,15 @@
 {
   "version": 1,
+  "notice": {
+    "title": {
+      "en": "Dial 1.5.5 is out"
+    },
+    "text": {
+      "en": "Faster call history and a cleaner keypad. Tap to see what's new."
+    },
+    "open": "app:dial",
+    "until": "2026-11-23"
+  },
   "submissions": false,
   "featured": [
     "app:dial"
