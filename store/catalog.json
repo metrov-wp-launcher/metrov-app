@@ -12,6 +12,7 @@
       "name": {
         "en": "METROV Dial"
       },
+      "author": "tuzkituan",
       "tagline": {
         "en": "Calls, the Metro way"
       },
@@ -38,6 +39,7 @@
       "name": {
         "en": "METROV Messages"
       },
+      "author": "tuzkituan",
       "tagline": {
         "en": "Metro-style SMS and MMS"
       },
@@ -64,6 +66,7 @@
       "name": {
         "en": "METROV Navbar"
       },
+      "author": "tuzkituan",
       "tagline": {
         "en": "Back, Start and search"
       },
@@ -90,6 +93,7 @@
       "name": {
         "en": "METROV Keyboard"
       },
+      "author": "tuzkituan",
       "tagline": {
         "en": "Metro typing"
       },
@@ -115,6 +119,7 @@
       "name": {
         "en": "METROV Files"
       },
+      "author": "tuzkituan",
       "tagline": {
         "en": "A Metro file manager"
       },
@@ -140,6 +145,7 @@
       "name": {
         "en": "FIMIE"
       },
+      "author": "tuzkituan",
       "tagline": {
         "en": "Give your photos the analog film look"
       },
@@ -165,6 +171,7 @@
       "name": {
         "en": "NightCap"
       },
+      "author": "tuzkituan",
       "tagline": {
         "en": "A sleep timer for whatever is playing"
       },
