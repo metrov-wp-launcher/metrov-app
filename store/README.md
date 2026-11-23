@@ -30,6 +30,30 @@ release is needed.
   on the Store tile.
 - Fields METROV does not know are ignored, so the format can grow.
 
+### notice
+
+Optional. A message at the top of the Store's front, above everything else. Leave it out (or let
+`until` pass) and nothing shows.
+
+```json
+"notice": {
+  "title": { "en": "Winter themes are here" },
+  "text": { "en": "Five new themes, free this week." },
+  "image": "notices/winter.jpg",
+  "open": "theme:winter",
+  "from": "2026-12-01",
+  "until": "2026-12-07"
+}
+```
+
+| field | |
+| --- | --- |
+| `title` | text map, required |
+| `text` | text map, one or two short lines |
+| `image` | path in this folder, drawn 2:1 across the pane (about 1200 x 600) |
+| `open` | what a tap opens: an item key (`app:dial`, `theme:x`, `tile:x`, `wallpaper:x`, `font:x`) or an `https://` link. Leave it out for nothing |
+| `from`, `until` | first and last day it shows (`YYYY-MM-DD`), in the phone's own time; either may be left out |
+
 ### apps
 
 | field | |
