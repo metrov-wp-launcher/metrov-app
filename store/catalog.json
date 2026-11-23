@@ -478,17 +478,6 @@
       "action": "none"
     },
     {
-      "id": "instagram",
-      "name": {
-        "en": "Instagram"
-      },
-      "file": "tiles/instagram.mvtile",
-      "preview": "tiles/instagram.png",
-      "added": "2026-11-23",
-      "size": "4x2",
-      "action": "openApp"
-    },
-    {
       "id": "whatsapp",
       "name": {
         "en": "WhatsApp"
