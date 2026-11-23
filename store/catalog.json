@@ -641,6 +641,28 @@
       "added": "2026-11-23",
       "size": "1x1",
       "action": "none"
+    },
+    {
+      "id": "coffee_break",
+      "name": {
+        "en": "Coffee break"
+      },
+      "file": "tiles/coffee_break.mvtile",
+      "preview": "tiles/coffee_break.gif",
+      "added": "2026-11-23",
+      "size": "2x2",
+      "action": "none"
+    },
+    {
+      "id": "hello",
+      "name": {
+        "en": "Hello"
+      },
+      "file": "tiles/hello.mvtile",
+      "preview": "tiles/hello.gif",
+      "added": "2026-11-23",
+      "size": "4x2",
+      "action": "none"
     }
   ],
   "fonts": [
