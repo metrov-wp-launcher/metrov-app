@@ -476,6 +476,50 @@
       "added": "2026-11-21",
       "size": "1x1",
       "action": "none"
+    },
+    {
+      "id": "instagram",
+      "name": {
+        "en": "Instagram"
+      },
+      "file": "tiles/instagram.mvtile",
+      "preview": "tiles/instagram.png",
+      "added": "2026-11-23",
+      "size": "4x2",
+      "action": "openApp"
+    },
+    {
+      "id": "whatsapp",
+      "name": {
+        "en": "WhatsApp"
+      },
+      "file": "tiles/whatsapp.mvtile",
+      "preview": "tiles/whatsapp.png",
+      "added": "2026-11-23",
+      "size": "4x2",
+      "action": "openApp"
+    },
+    {
+      "id": "discord",
+      "name": {
+        "en": "Discord"
+      },
+      "file": "tiles/discord.mvtile",
+      "preview": "tiles/discord.png",
+      "added": "2026-11-23",
+      "size": "2x2",
+      "action": "openApp"
+    },
+    {
+      "id": "reddit",
+      "name": {
+        "en": "Reddit"
+      },
+      "file": "tiles/reddit.mvtile",
+      "preview": "tiles/reddit.png",
+      "added": "2026-11-23",
+      "size": "2x2",
+      "action": "openApp"
     }
   ],
   "fonts": [
