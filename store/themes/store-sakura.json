@@ -3,7 +3,7 @@
   "id": "store-sakura",
   "name": "Sakura",
   "author": "METROV",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "palette": {
     "light": {
       "scaffoldBg": "#FFFFF4F6",
@@ -11,10 +11,7 @@
       "primaryText": "#FF3A1E27",
       "secondaryText": "#FF9A6B78",
       "border": "#FFF4CFD8",
-      "appBarBg": "#FFFFEEF2",
-      "tileBg": "#FFFFDDE5",
-      "tileText": "#FF5A2A38",
-      "liveTileText": "#FF5A2A38"
+      "appBarBg": "#FFFFEEF2"
     },
     "dark": {
       "scaffoldBg": "#FF160D0F",
@@ -23,10 +20,7 @@
       "secondaryText": "#FFBBA0A6",
       "border": "#FF432D32",
       "appBarBg": "#FF1F1416",
-      "scrim": "#E6000000",
-      "tileBg": "#FF6E2B3A",
-      "tileText": "#FFF6E4E8",
-      "liveTileText": "#FFF6E4E8"
+      "scrim": "#E6000000"
     }
   },
   "tile": {

@@ -3,7 +3,7 @@
   "id": "store-espresso",
   "name": "Espresso",
   "author": "METROV",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "palette": {
     "light": {
       "scaffoldBg": "#FFFAF8F5",
@@ -12,10 +12,7 @@
       "secondaryText": "#FF7D7359",
       "border": "#FFDFDACD",
       "appBarBg": "#FFF6F4EF",
-      "scrim": "#99000000",
-      "tileBg": "#FFE7DFCA",
-      "tileText": "#FF493D1D",
-      "liveTileText": "#FF493D1D"
+      "scrim": "#99000000"
     },
     "dark": {
       "scaffoldBg": "#FF140E0A",
@@ -24,8 +21,6 @@
       "secondaryText": "#FFA89580",
       "border": "#FF34281E",
       "appBarBg": "#FF18110C",
-      "tileBg": "#FF2A1E15",
-      "liveTileText": "#FFE8C98A",
       "scrim": "#E6000000"
     }
   },

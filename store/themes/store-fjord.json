@@ -3,7 +3,7 @@
   "id": "store-fjord",
   "name": "Fjord",
   "author": "METROV",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "palette": {
     "light": {
       "scaffoldBg": "#FFF5F8FA",
@@ -12,10 +12,7 @@
       "secondaryText": "#FF59707D",
       "border": "#FFCDD8DF",
       "appBarBg": "#FFEFF3F6",
-      "scrim": "#99000000",
-      "tileBg": "#FFCADDE7",
-      "tileText": "#FF1D3949",
-      "liveTileText": "#FF1D3949"
+      "scrim": "#99000000"
     },
     "dark": {
       "scaffoldBg": "#FF1B222C",
@@ -24,8 +21,6 @@
       "secondaryText": "#FF8B98A8",
       "border": "#FF2F3A48",
       "appBarBg": "#FF1E2631",
-      "tileBg": "#FF2E3A4A",
-      "liveTileText": "#FFE6EDF5",
       "scrim": "#E6000000"
     }
   },

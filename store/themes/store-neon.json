@@ -3,7 +3,7 @@
   "id": "store-neon",
   "name": "Neon",
   "author": "METROV",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "palette": {
     "light": {
       "scaffoldBg": "#FFFAF5F7",
@@ -12,10 +12,7 @@
       "secondaryText": "#FF7D596B",
       "border": "#FFDFCDD6",
       "appBarBg": "#FFF6EFF2",
-      "scrim": "#99000000",
-      "tileBg": "#FFE7CAD9",
-      "tileText": "#FF491D33",
-      "liveTileText": "#FF491D33"
+      "scrim": "#99000000"
     },
     "dark": {
       "scaffoldBg": "#FF05030A",
@@ -24,8 +21,6 @@
       "secondaryText": "#FF9C8BB8",
       "border": "#FF2A1A45",
       "appBarBg": "#FF08050F",
-      "tileBg": "#FF0E0918",
-      "liveTileText": "#FFFFFFFF",
       "scrim": "#E6000000"
     }
   },

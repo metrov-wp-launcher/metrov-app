@@ -3,7 +3,7 @@
   "id": "store-matcha",
   "name": "Matcha",
   "author": "METROV",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "palette": {
     "light": {
       "scaffoldBg": "#FFEEF3E6",
@@ -11,10 +11,7 @@
       "primaryText": "#FF1F2A16",
       "secondaryText": "#FF66755A",
       "border": "#FFCFDCBE",
-      "appBarBg": "#FFE7EEDC",
-      "tileBg": "#FFD8E6C6",
-      "tileText": "#FF24331A",
-      "liveTileText": "#FF24331A"
+      "appBarBg": "#FFE7EEDC"
     },
     "dark": {
       "scaffoldBg": "#FF12160D",
@@ -23,10 +20,7 @@
       "secondaryText": "#FFADBBA0",
       "border": "#FF38432D",
       "appBarBg": "#FF1A1F14",
-      "scrim": "#E6000000",
-      "tileBg": "#FF4D6E2B",
-      "tileText": "#FFEDF6E4",
-      "liveTileText": "#FFEDF6E4"
+      "scrim": "#E6000000"
     }
   },
   "tile": {

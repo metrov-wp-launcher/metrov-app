@@ -3,7 +3,7 @@
   "id": "store-abyss",
   "name": "Abyss",
   "author": "METROV",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "palette": {
     "light": {
       "scaffoldBg": "#FFF5F9FA",
@@ -12,10 +12,7 @@
       "secondaryText": "#FF597A7D",
       "border": "#FFCDDEDF",
       "appBarBg": "#FFEFF5F6",
-      "scrim": "#99000000",
-      "tileBg": "#8CCAE6E7",
-      "tileText": "#FF1D4749",
-      "liveTileText": "#FF1D4749"
+      "scrim": "#99000000"
     },
     "dark": {
       "scaffoldBg": "#FF031418",
@@ -24,8 +21,6 @@
       "secondaryText": "#FF6FA3A8",
       "border": "#FF0F3640",
       "appBarBg": "#FF041A1F",
-      "tileBg": "#8C00ACB8",
-      "liveTileText": "#FFFFFFFF",
       "scrim": "#E6000000"
     }
   },

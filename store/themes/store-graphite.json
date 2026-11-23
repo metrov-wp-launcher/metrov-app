@@ -3,7 +3,7 @@
   "id": "store-graphite",
   "name": "Graphite",
   "author": "METROV",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "palette": {
     "light": {
       "scaffoldBg": "#FFF7F7F8",
@@ -12,10 +12,7 @@
       "secondaryText": "#FF686B6E",
       "border": "#FFD5D6D8",
       "appBarBg": "#FFF2F2F3",
-      "scrim": "#99000000",
-      "tileBg": "#FFD6D8DC",
-      "tileText": "#FF2F3237",
-      "liveTileText": "#FF2F3237"
+      "scrim": "#99000000"
     },
     "dark": {
       "scaffoldBg": "#FF121314",
@@ -24,8 +21,6 @@
       "secondaryText": "#FF8D9196",
       "border": "#FF2A2C2F",
       "appBarBg": "#FF161718",
-      "tileBg": "#FF26282B",
-      "liveTileText": "#FFFFFFFF",
       "scrim": "#E6000000"
     }
   },
