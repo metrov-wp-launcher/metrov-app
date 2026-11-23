@@ -520,6 +520,138 @@
       "added": "2026-11-23",
       "size": "2x2",
       "action": "openApp"
+    },
+    {
+      "id": "star",
+      "name": {
+        "en": "Pixel star"
+      },
+      "file": "tiles/star.mvtile",
+      "preview": "tiles/star.png",
+      "added": "2026-11-23",
+      "size": "1x1",
+      "action": "none"
+    },
+    {
+      "id": "moon",
+      "name": {
+        "en": "Pixel moon"
+      },
+      "file": "tiles/moon.mvtile",
+      "preview": "tiles/moon.png",
+      "added": "2026-11-23",
+      "size": "1x1",
+      "action": "none"
+    },
+    {
+      "id": "bolt",
+      "name": {
+        "en": "Pixel bolt"
+      },
+      "file": "tiles/bolt.mvtile",
+      "preview": "tiles/bolt.png",
+      "added": "2026-11-23",
+      "size": "1x1",
+      "action": "none"
+    },
+    {
+      "id": "note",
+      "name": {
+        "en": "Pixel note"
+      },
+      "file": "tiles/note.mvtile",
+      "preview": "tiles/note.png",
+      "added": "2026-11-23",
+      "size": "1x1",
+      "action": "none"
+    },
+    {
+      "id": "ghost",
+      "name": {
+        "en": "Pixel ghost"
+      },
+      "file": "tiles/ghost.mvtile",
+      "preview": "tiles/ghost.png",
+      "added": "2026-11-23",
+      "size": "1x1",
+      "action": "none"
+    },
+    {
+      "id": "cat",
+      "name": {
+        "en": "Pixel cat"
+      },
+      "file": "tiles/cat.mvtile",
+      "preview": "tiles/cat.png",
+      "added": "2026-11-23",
+      "size": "1x1",
+      "action": "none"
+    },
+    {
+      "id": "coffee",
+      "name": {
+        "en": "Pixel coffee"
+      },
+      "file": "tiles/coffee.mvtile",
+      "preview": "tiles/coffee.png",
+      "added": "2026-11-23",
+      "size": "1x1",
+      "action": "none"
+    },
+    {
+      "id": "smile",
+      "name": {
+        "en": "Pixel smile"
+      },
+      "file": "tiles/smile.mvtile",
+      "preview": "tiles/smile.png",
+      "added": "2026-11-23",
+      "size": "1x1",
+      "action": "none"
+    },
+    {
+      "id": "flower",
+      "name": {
+        "en": "Pixel flower"
+      },
+      "file": "tiles/flower.mvtile",
+      "preview": "tiles/flower.png",
+      "added": "2026-11-23",
+      "size": "1x1",
+      "action": "none"
+    },
+    {
+      "id": "crown",
+      "name": {
+        "en": "Pixel crown"
+      },
+      "file": "tiles/crown.mvtile",
+      "preview": "tiles/crown.png",
+      "added": "2026-11-23",
+      "size": "1x1",
+      "action": "none"
+    },
+    {
+      "id": "gamepad",
+      "name": {
+        "en": "Pixel gamepad"
+      },
+      "file": "tiles/gamepad.mvtile",
+      "preview": "tiles/gamepad.png",
+      "added": "2026-11-23",
+      "size": "1x1",
+      "action": "none"
+    },
+    {
+      "id": "rocket",
+      "name": {
+        "en": "Pixel rocket"
+      },
+      "file": "tiles/rocket.mvtile",
+      "preview": "tiles/rocket.png",
+      "added": "2026-11-23",
+      "size": "1x1",
+      "action": "none"
     }
   ],
   "fonts": [
