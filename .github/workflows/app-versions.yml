@@ -1,0 +1,41 @@
+name: App versions from Play
+
+# Daily: writes each live app's Play version into store/catalog.json, so METROV
+# can show "update" when a newer one is out. Commits only when one changed.
+on:
+  schedule:
+    - cron: "17 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Read versions from Play
+        env:
+          PLAY_SERVICE_ACCOUNT_JSON: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
+        run: |
+          pip install --quiet google-auth requests
+          python store/tools/update_app_versions.py
+
+      - name: Commit
+        run: |
+          if git diff --quiet store/catalog.json; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "store: update app versions from Play"
+          git pull --rebase
+          git push
