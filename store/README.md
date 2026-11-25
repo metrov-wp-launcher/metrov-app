@@ -2,8 +2,13 @@
 
 METROV's Store app reads `catalog.json` from this folder at
 `https://raw.githubusercontent.com/metrov-wp-launcher/metrov-app/main/store/` and caches it on the
-phone. Push a change here and phones pick it up within 12 hours, or at once with refresh. No METROV
-release is needed.
+phone. Push a change here and phones pick it up the next time the Store is opened, a few minutes
+later at most (GitHub caches the file for about five minutes); the Store tile checks every 12 hours,
+and refresh fetches at once. No METROV release is needed.
+
+Builds after 2.10.2 also read `notices`, `front`, `panes` and the per-item fields under
+[Showing, ordering and badges](#showing-ordering-and-badges). Older builds ignore them, so keep
+`notice` filled in for them while they are still around.
 
 ## catalog.json
 
@@ -33,7 +38,7 @@ release is needed.
 ### notice
 
 Optional. A message at the top of the Store's front, above everything else. Leave it out (or let
-`until` pass) and nothing shows.
+`until` pass) and nothing shows. Newer builds read `notices` instead when it is there.
 
 ```json
 "notice": {
@@ -53,6 +58,73 @@ Optional. A message at the top of the Store's front, above everything else. Leav
 | `image` | path in this folder, drawn 2:1 across the pane (about 1200 x 600) |
 | `open` | what a tap opens: an item key (`app:dial`, `theme:x`, `tile:x`, `wallpaper:x`, `font:x`) or an `https://` link. Leave it out for nothing |
 | `from`, `until` | first and last day it shows (`YYYY-MM-DD`), in the phone's own time; either may be left out |
+
+### notices
+
+Newer builds: a list of notices, each as `notice` above plus an `id`. A `notice` block in `front` or
+a pane places one; with no `front`, all of them show at the top of the front, in order. When
+`notices` is present, newer builds ignore `notice`.
+
+```json
+"notices": [
+  { "id": "winter", "title": { "en": "Winter themes are here" }, "open": "theme:winter",
+    "from": "2026-12-01", "until": "2026-12-07" }
+]
+```
+
+### front
+
+Newer builds: the sections of the Store's first pane, top to bottom. Leave it out for the usual
+order: every notice, then featured, new, collections. The user's own news (items they sent, app
+updates) always shows near the top, under any notices that open the list.
+
+```json
+"front": [
+  { "type": "notice", "id": "winter" },
+  { "type": "featured" },
+  { "type": "new", "days": 14, "limit": 6, "title": { "en": "New this fortnight" } },
+  { "type": "collection", "id": "dark", "limit": 6 },
+  { "type": "collections" }
+]
+```
+
+| `type` | shows |
+| --- | --- |
+| `notice` | the notice with this `id` |
+| `featured` | the `featured` items, large |
+| `new` | themes and tiles whose `added` is within `days` (default 7), newest first, at most `limit` (default 6) |
+| `collection` | the collection with this `id`: its name, up to `limit` themes and tiles as pictures, and "more" to its page |
+| `collections` | every collection, each a line opening its page |
+
+Every block may have a `title` (text map) to replace its heading, and `from`, `until`, `minApp`,
+`maxApp` as below. Unknown types are skipped.
+
+### panes
+
+Newer builds: up to two extra panes in the Store's panorama, each after a fixed one (`featured`,
+`apps` or `categories`; `apps` when left out). A pane holds blocks, as `front` does. A pane whose
+blocks are all outside their dates does not show.
+
+```json
+"panes": [
+  { "id": "holiday", "name": { "en": "holiday" }, "after": "featured",
+    "from": "2026-12-15", "until": "2026-12-31",
+    "blocks": [ { "type": "notice", "id": "winter" }, { "type": "collection", "id": "xmas" } ] }
+]
+```
+
+### Showing, ordering and badges
+
+Newer builds read these on any app, theme, wallpaper, tile or font (and `from` to `maxApp` on
+collections, notices, blocks and panes too):
+
+| field | |
+| --- | --- |
+| `hidden` | `true` leaves the item out everywhere, without deleting it |
+| `from`, `until` | first and last day it shows (`YYYY-MM-DD`), in the phone's own time |
+| `minApp`, `maxApp` | the METROV versions it shows in (`2.11.0`). Older builds ignore these and show it anyway |
+| `order` | items with a number come first in their list, lowest first; the rest keep their usual order |
+| `badge` | `new`, `popular` or `updated`: a word in the accent colour by its name, translated |
 
 ### apps
 
