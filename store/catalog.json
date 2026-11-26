@@ -2,14 +2,15 @@
   "version": 1,
   "notice": {
     "title": {
-      "en": "Dial 1.5.5 is out"
+      "en": "Update METROV for new tiles",
+      "vi": "Cập nhật METROV để dùng tile mới"
     },
     "text": {
-      "en": "The latest version is on Google Play. Tap to open it in the Store."
-    },
-    "open": "app:dial",
-    "until": "2026-11-23"
+      "en": "Tiles that show the quote, joke or exchange rate of the day need METROV 2.11 or later. Get it on Google Play.",
+      "vi": "Các tile trích dẫn, truyện cười và tỷ giá mỗi ngày cần METROV 2.11 trở lên. Hãy cập nhật trên Google Play."
+    }
   },
+  "notices": [],
   "submissions": false,
   "featured": [
     "app:dial"
@@ -991,6 +992,90 @@
       "added": "2026-11-23",
       "size": "1x1",
       "action": "none"
+    },
+    {
+      "id": "quote",
+      "name": {
+        "en": "Quote of the day",
+        "vi": "Câu nói hôm nay"
+      },
+      "file": "tiles/quote.mvtile",
+      "preview": "tiles/quote.png",
+      "added": "2026-11-26",
+      "size": "2x2",
+      "action": "none",
+      "markup": 1,
+      "minApp": "2.11.0"
+    },
+    {
+      "id": "joke",
+      "name": {
+        "en": "Joke of the day",
+        "vi": "Truyện cười hôm nay"
+      },
+      "file": "tiles/joke.mvtile",
+      "preview": "tiles/joke.png",
+      "added": "2026-11-26",
+      "size": "2x2",
+      "action": "none",
+      "markup": 1,
+      "minApp": "2.11.0"
+    },
+    {
+      "id": "rate",
+      "name": {
+        "en": "Exchange rate",
+        "vi": "Tỷ giá"
+      },
+      "file": "tiles/rate.mvtile",
+      "preview": "tiles/rate.png",
+      "added": "2026-11-26",
+      "size": "2x2",
+      "action": "none",
+      "markup": 1,
+      "minApp": "2.11.0"
+    },
+    {
+      "id": "weekend",
+      "name": {
+        "en": "Weekend",
+        "vi": "Cuối tuần"
+      },
+      "file": "tiles/weekend.mvtile",
+      "preview": "tiles/weekend.png",
+      "added": "2026-11-26",
+      "size": "2x2",
+      "action": "none",
+      "markup": 1,
+      "minApp": "2.11.0"
+    },
+    {
+      "id": "together",
+      "name": {
+        "en": "Together",
+        "vi": "Bên nhau"
+      },
+      "file": "tiles/together.mvtile",
+      "preview": "tiles/together.png",
+      "added": "2026-11-26",
+      "size": "2x2",
+      "action": "none",
+      "markup": 1,
+      "minApp": "2.11.0"
+    },
+    {
+      "id": "device",
+      "name": {
+        "en": "Device",
+        "vi": "Thiết bị"
+      },
+      "file": "tiles/device.mvtile",
+      "preview": "tiles/device.png",
+      "added": "2026-11-26",
+      "size": "4x2",
+      "action": "none",
+      "markup": 1,
+      "minApp": "2.11.0"
     }
   ],
   "fonts": [
