@@ -10,7 +10,19 @@
       "vi": "Các tile lấy dữ liệu từ web cần METROV 2.11 trở lên. Hãy cập nhật trên Google Play."
     }
   },
-  "notices": [],
+  "notices": [
+    {
+      "id": "web-tiles",
+      "title": {
+        "en": "New tiles from the web",
+        "vi": "Tile mới lấy dữ liệu từ web"
+      },
+      "text": {
+        "en": "Fact of the day, Wikipedia and Hacker News are here.",
+        "vi": "Điều thú vị hôm nay, Wikipedia và Hacker News đã có mặt."
+      }
+    }
+  ],
   "submissions": false,
   "featured": [
     "app:dial"
