@@ -6,8 +6,8 @@
       "vi": "Cập nhật METROV để dùng tile mới"
     },
     "text": {
-      "en": "Tiles that show the quote, joke or exchange rate of the day need METROV 2.11 or later. Get it on Google Play.",
-      "vi": "Các tile trích dẫn, truyện cười và tỷ giá mỗi ngày cần METROV 2.11 trở lên. Hãy cập nhật trên Google Play."
+      "en": "Tiles that read the web need METROV 2.11 or later. Get it on Google Play.",
+      "vi": "Các tile lấy dữ liệu từ web cần METROV 2.11 trở lên. Hãy cập nhật trên Google Play."
     }
   },
   "notices": [],
@@ -1071,6 +1071,48 @@
       },
       "file": "tiles/device.mvtile",
       "preview": "tiles/device.png",
+      "added": "2026-11-26",
+      "size": "4x2",
+      "action": "none",
+      "markup": 1,
+      "minApp": "2.11.0"
+    },
+    {
+      "id": "fact",
+      "name": {
+        "en": "Fact of the day",
+        "vi": "Điều thú vị hôm nay"
+      },
+      "file": "tiles/fact.mvtile",
+      "preview": "tiles/fact.png",
+      "added": "2026-11-26",
+      "size": "4x2",
+      "action": "none",
+      "markup": 1,
+      "minApp": "2.11.0"
+    },
+    {
+      "id": "wiki",
+      "name": {
+        "en": "Wikipedia",
+        "vi": "Wikipedia"
+      },
+      "file": "tiles/wiki.mvtile",
+      "preview": "tiles/wiki.png",
+      "added": "2026-11-26",
+      "size": "4x2",
+      "action": "none",
+      "markup": 1,
+      "minApp": "2.11.0"
+    },
+    {
+      "id": "hn",
+      "name": {
+        "en": "Hacker News",
+        "vi": "Hacker News"
+      },
+      "file": "tiles/hn.mvtile",
+      "preview": "tiles/hn.png",
       "added": "2026-11-26",
       "size": "4x2",
       "action": "none",
